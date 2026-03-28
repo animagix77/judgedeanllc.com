@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Judge Dean LLC | Crafting Clarity Through Editorial Precision</title>
-  <meta name="description" content="Judge Dean LLC partners with high-growth tech companies to distill complex architectures into clear, narrative-driven content that commands authority.">
+  <title>Judge Dean LLC | Apps, Websites & UX Design</title>
+  <meta name="description" content="Judge Dean LLC builds apps and websites using vibe coding, with a focus on clean UX/UI. Let's bring your idea to life.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,11 +21,8 @@
       --gray-400: #a0a0a0;
       --gray-500: #737373;
       --gray-600: #525252;
-      --gray-700: #404040;
       --gray-800: #262626;
       --gray-900: #171717;
-      --purple: #7c5cfc;
-      --purple-light: #ede9fe;
     }
 
     html { scroll-behavior: smooth; }
@@ -50,458 +47,216 @@
       border-bottom: 1px solid var(--gray-200);
     }
     .nav-inner {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 0 40px;
-      height: 64px;
+      padding: 0 32px;
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
     .logo {
-      font-family: 'Inter', sans-serif;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 15px;
       color: var(--black);
       text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: -0.3px;
     }
-    .nav-links { display: flex; gap: 32px; align-items: center; }
-    .nav-links a {
-      text-decoration: none;
-      color: var(--gray-500);
-      font-size: 14px;
-      font-weight: 400;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--black); }
     .nav-cta {
-      background: var(--black) !important;
-      color: var(--white) !important;
+      background: var(--black);
+      color: var(--white);
       padding: 8px 20px;
       border-radius: 6px;
-      font-size: 13px !important;
-      font-weight: 500 !important;
-      transition: opacity 0.2s !important;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: opacity 0.2s;
     }
-    .nav-cta:hover { opacity: 0.85 !important; }
-    .mobile-toggle {
-      display: none;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 8px;
-    }
-    .mobile-toggle span {
-      display: block;
-      width: 22px;
-      height: 1.5px;
-      background: var(--black);
-      margin: 5px 0;
-      transition: 0.3s;
-    }
+    .nav-cta:hover { opacity: 0.85; }
 
     /* ── HERO ── */
     .hero {
-      padding: 160px 40px 80px;
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
-      text-align: center;
-    }
-    .hero-label {
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      color: var(--gray-400);
-      margin-bottom: 32px;
+      padding: 140px 32px 80px;
     }
     .hero h1 {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(36px, 5.5vw, 64px);
+      font-size: clamp(36px, 5vw, 56px);
       font-weight: 400;
       color: var(--black);
       line-height: 1.15;
-      max-width: 720px;
-      margin: 0 auto 24px;
+      max-width: 600px;
+      margin-bottom: 20px;
       letter-spacing: -0.5px;
     }
     .hero p {
-      font-size: 16px;
-      color: var(--gray-500);
-      max-width: 520px;
-      margin: 0 auto 48px;
-      line-height: 1.7;
-    }
-    .hero-image {
-      width: 100%;
-      max-width: 960px;
-      margin: 0 auto;
-      border-radius: 12px;
-      overflow: hidden;
-      aspect-ratio: 16/9;
-      background: var(--gray-900);
-      position: relative;
-    }
-    .hero-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-    .hero-image img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    /* ── SECTION BASE ── */
-    section { padding: 100px 40px; }
-    .section-inner { max-width: 1200px; margin: 0 auto; }
-    .section-label {
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      color: var(--gray-400);
-      margin-bottom: 16px;
-    }
-
-    /* ── CRAFTING EXCELLENCE / CORE COMPETENCIES ── */
-    .competencies { background: var(--white); }
-    .competencies-header { margin-bottom: 56px; }
-    .competencies-header h2 {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(28px, 3.5vw, 40px);
-      font-weight: 400;
-      margin-bottom: 12px;
-    }
-    .competencies-header p {
-      font-size: 15px;
+      font-size: 17px;
       color: var(--gray-500);
       max-width: 480px;
       line-height: 1.7;
+      margin-bottom: 36px;
     }
-    .competencies-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 24px;
-    }
-    .comp-card {
-      background: var(--gray-50);
-      border: 1px solid var(--gray-200);
-      border-radius: 12px;
-      padding: 36px 32px;
-      transition: all 0.3s;
-    }
-    .comp-card:hover {
-      border-color: var(--gray-300);
-      box-shadow: 0 4px 24px rgba(0,0,0,0.04);
-    }
-    .comp-icon {
-      width: 44px;
-      height: 44px;
-      border-radius: 10px;
-      background: var(--white);
-      border: 1px solid var(--gray-200);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: var(--gray-700);
-    }
-    .comp-card h3 {
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 8px;
-      color: var(--black);
-    }
-    .comp-card p {
-      font-size: 14px;
-      color: var(--gray-500);
-      line-height: 1.7;
-      margin-bottom: 16px;
-    }
-    .comp-tags { display: flex; gap: 8px; flex-wrap: wrap; }
-    .comp-tag {
-      font-size: 12px;
-      font-weight: 500;
-      color: var(--gray-600);
-      background: var(--white);
-      border: 1px solid var(--gray-200);
-      padding: 4px 12px;
-      border-radius: 100px;
-    }
-    .comp-link {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--black);
-      text-decoration: none;
+    .btn-primary {
       display: inline-flex;
       align-items: center;
-      gap: 4px;
-      margin-top: 12px;
-    }
-    .comp-link:hover { text-decoration: underline; }
-
-    /* ── EDITORIAL PROCESS ── */
-    .process { background: var(--white); border-top: 1px solid var(--gray-200); }
-    .process-layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: start;
-    }
-    .process-left h2 {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(28px, 3.5vw, 40px);
-      font-weight: 400;
-      margin-bottom: 16px;
-      line-height: 1.2;
-    }
-    .process-left p {
-      font-size: 15px;
-      color: var(--gray-500);
-      line-height: 1.7;
-      margin-bottom: 32px;
-    }
-    .process-visual {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
+      gap: 8px;
       background: var(--black);
-      margin-top: 16px;
-    }
-    .process-steps { display: flex; flex-direction: column; gap: 36px; }
-    .process-step {
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-    }
-    .step-num {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--gray-300);
-      min-width: 28px;
-      padding-top: 2px;
-    }
-    .step-content h3 {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 6px;
-      color: var(--black);
-    }
-    .step-content p {
-      font-size: 14px;
-      color: var(--gray-500);
-      line-height: 1.7;
-    }
-
-    /* ── STATS ── */
-    .stats {
-      background: var(--gray-900);
       color: var(--white);
-      padding: 80px 40px;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: opacity 0.2s;
     }
-    .stats-grid {
-      max-width: 1200px;
+    .btn-primary:hover { opacity: 0.85; }
+
+    /* ── WHAT I DO ── */
+    .services {
+      border-top: 1px solid var(--gray-200);
+      padding: 80px 32px;
+    }
+    .services-inner {
+      max-width: 1000px;
       margin: 0 auto;
+    }
+    .services-inner h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+    .services-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 40px;
+      gap: 24px;
     }
-    .stat-item { text-align: center; }
-    .stat-number {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(36px, 5vw, 56px);
-      font-weight: 400;
-      margin-bottom: 4px;
-    }
-    .stat-label {
-      font-size: 12px;
-      color: var(--gray-400);
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      font-weight: 500;
-    }
-    .stat-desc {
-      font-size: 13px;
-      color: var(--gray-500);
-      margin-top: 12px;
-      line-height: 1.6;
-      max-width: 280px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    /* ── TOOLSET / TECH STACK ── */
-    .toolset {
-      background: var(--white);
-      border-top: 1px solid var(--gray-200);
-    }
-    .toolset-header {
-      text-align: center;
-      margin-bottom: 48px;
-    }
-    .toolset-header h2 {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(24px, 3vw, 36px);
-      font-weight: 400;
-      margin-bottom: 8px;
-    }
-    .toolset-grid {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      gap: 16px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .tool-item {
-      aspect-ratio: 1;
+    .service-card {
       background: var(--gray-50);
       border: 1px solid var(--gray-200);
-      border-radius: 12px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 16px 8px;
-      transition: all 0.2s;
-      text-align: center;
+      border-radius: 10px;
+      padding: 28px 24px;
     }
-    .tool-item:hover {
-      border-color: var(--gray-300);
-      background: var(--white);
+    .service-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 8px;
     }
-    .tool-item-icon { font-size: 24px; }
-    .tool-item span {
-      font-size: 11px;
-      font-weight: 500;
-      color: var(--gray-600);
+    .service-card p {
+      font-size: 14px;
+      color: var(--gray-500);
+      line-height: 1.6;
+    }
+
+    /* ── HOW I WORK ── */
+    .process {
+      border-top: 1px solid var(--gray-200);
+      padding: 80px 32px;
+    }
+    .process-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .process-inner h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(24px, 3vw, 32px);
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .step {
+      padding: 4px 0;
+    }
+    .step-num {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--gray-300);
+      margin-bottom: 12px;
+    }
+    .step h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .step p {
+      font-size: 13px;
+      color: var(--gray-500);
+      line-height: 1.6;
     }
 
     /* ── CTA ── */
     .cta {
       background: var(--gray-900);
       text-align: center;
-      padding: 100px 40px;
+      padding: 80px 32px;
     }
     .cta h2 {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(28px, 4vw, 44px);
+      font-size: clamp(24px, 3.5vw, 36px);
       font-weight: 400;
       color: var(--white);
-      margin-bottom: 16px;
-      line-height: 1.2;
+      margin-bottom: 12px;
     }
     .cta p {
       font-size: 15px;
       color: var(--gray-400);
-      max-width: 420px;
-      margin: 0 auto 40px;
+      max-width: 400px;
+      margin: 0 auto 32px;
       line-height: 1.7;
     }
     .btn-cta {
       display: inline-flex;
-      align-items: center;
-      gap: 8px;
       background: var(--white);
       color: var(--black);
-      padding: 14px 32px;
+      padding: 14px 28px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: 600;
       font-size: 14px;
-      transition: all 0.2s;
-      border: none;
-      cursor: pointer;
+      transition: opacity 0.2s;
     }
-    .btn-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-cta:hover { opacity: 0.9; }
 
     /* ── FOOTER ── */
     footer {
-      background: var(--white);
-      color: var(--gray-500);
-      padding: 64px 40px 40px;
+      padding: 32px;
+      text-align: center;
       border-top: 1px solid var(--gray-200);
     }
-    .footer-inner { max-width: 1200px; margin: 0 auto; }
-    .footer-top {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
-      gap: 48px;
-      padding-bottom: 48px;
-      border-bottom: 1px solid var(--gray-200);
-    }
-    .footer-brand .logo { font-size: 14px; }
-    .footer-brand p {
-      margin-top: 12px;
-      font-size: 13px;
-      color: var(--gray-400);
-      max-width: 260px;
-      line-height: 1.7;
-    }
-    .footer-col h4 {
-      color: var(--black);
-      font-size: 13px;
-      font-weight: 600;
-      margin-bottom: 16px;
-    }
-    .footer-col a {
-      display: block;
-      color: var(--gray-400);
-      text-decoration: none;
-      font-size: 13px;
-      margin-bottom: 10px;
-      transition: color 0.2s;
-    }
-    .footer-col a:hover { color: var(--black); }
-    .footer-bottom {
+    .footer-inner {
+      max-width: 1000px;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-      padding-top: 32px;
       font-size: 12px;
       color: var(--gray-400);
     }
+    .footer-inner a {
+      color: var(--gray-400);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-inner a:hover { color: var(--black); }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .mobile-toggle { display: block; }
-      .nav-links.open {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 64px;
-        left: 0;
-        right: 0;
-        background: white;
-        padding: 24px 40px;
-        border-bottom: 1px solid var(--gray-200);
-        gap: 16px;
-      }
-      .nav-inner { padding: 0 24px; }
       .hero { padding: 120px 24px 60px; }
-      section { padding: 72px 24px; }
-      .competencies-grid { grid-template-columns: 1fr; }
-      .process-layout { grid-template-columns: 1fr; gap: 48px; }
-      .stats { padding: 60px 24px; }
-      .stats-grid { grid-template-columns: 1fr; gap: 32px; }
-      .toolset-grid { grid-template-columns: repeat(3, 1fr); }
-      .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
-      .cta { padding: 72px 24px; }
+      .services, .process { padding: 60px 24px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .process-steps { grid-template-columns: 1fr 1fr; gap: 24px; }
+      .cta { padding: 60px 24px; }
+      .nav-inner { padding: 0 24px; }
     }
 
     @media (max-width: 480px) {
-      .footer-top { grid-template-columns: 1fr; }
-      .toolset-grid { grid-template-columns: repeat(3, 1fr); }
+      .process-steps { grid-template-columns: 1fr; }
+      .footer-inner { flex-direction: column; gap: 8px; }
     }
   </style>
 </head>
@@ -510,190 +265,82 @@
   <!-- NAV -->
   <nav id="navbar">
     <div class="nav-inner">
-      <a href="#" class="logo">Studio</a>
-      <div class="nav-links" id="navLinks">
-        <a href="#competencies">Work</a>
-        <a href="#process">Process</a>
-        <a href="#stats">Insights</a>
-        <a href="#toolset">Team</a>
-        <a href="#contact" class="nav-cta">Contact</a>
-      </div>
-      <button class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
+      <a href="#" class="logo">Judge Dean LLC</a>
+      <a href="mailto:judgedeanllc@gmail.com" class="nav-cta">Get in Touch</a>
     </div>
   </nav>
 
   <!-- HERO -->
   <div class="hero">
-    <div class="hero-label">Precise Content Systems</div>
-    <h1>Crafting clarity through editorial precision.</h1>
-    <p>Judge Dean LLC partners with high-growth tech companies to distill complex architectures into clear, narrative-driven content that commands authority.</p>
-    <div class="hero-image">
-      <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?w=1200&q=80&auto=format" alt="Minimalist dark workspace with monitor and desk lamp" loading="eager">
-    </div>
+    <h1>I build apps and websites with vibe and precision.</h1>
+    <p>I'm a developer and designer who uses vibe coding to ship real products fast. I help founders and businesses bring their ideas to life with clean UX, modern tech, and hands-on craft.</p>
+    <a href="mailto:judgedeanllc@gmail.com" class="btn-primary">Let's Talk &rarr;</a>
   </div>
 
-  <!-- CORE COMPETENCIES -->
-  <section class="competencies" id="competencies">
-    <div class="section-inner">
-      <div class="competencies-header">
-        <h2>Core Competencies</h2>
-        <p>Strategic content infrastructure for the new era of tech.</p>
-      </div>
-      <div class="competencies-grid">
-        <div class="comp-card">
-          <div class="comp-icon">A</div>
-          <h3>Content Infrastructure</h3>
-          <p>Decode the patterns that power your global communications, ensuring consistency across every touchpoint and voice.</p>
-          <div class="comp-tags">
-            <span class="comp-tag">Case Studies</span>
-            <span class="comp-tag">Global Narrative</span>
-          </div>
+  <!-- WHAT I DO -->
+  <section class="services">
+    <div class="services-inner">
+      <h2>What I Do</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>App Development</h3>
+          <p>Native and cross-platform mobile apps built for performance. From MVP to full product.</p>
         </div>
-        <div class="comp-card">
-          <div class="comp-icon">&#9998;</div>
-          <h3>Ghostwriting</h3>
-          <p>Premium editorial support for technical leaders and founders who need a clear, authoritative voice.</p>
-          <a href="#contact" class="comp-link">View Case Studies &rarr;</a>
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>Fast, responsive websites and web apps. Marketing sites, SaaS platforms, and everything in between.</p>
         </div>
-        <div class="comp-card">
-          <div class="comp-icon">&#9776;</div>
-          <h3>Technical Docs</h3>
-          <p>Transform raw data and complex information into developer-friendly technical documentation.</p>
-        </div>
-        <div class="comp-card">
-          <div class="comp-icon" style="position:relative;overflow:hidden;">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 3h14v14H3z" stroke="currentColor" stroke-width="1.5"/><path d="M3 10l7-7 7 7" stroke="currentColor" stroke-width="1.5"/></svg>
-          </div>
-          <h3>Brand Narrative</h3>
-          <p>Crafting the story of your software through rigorous storytelling frameworks.</p>
+        <div class="service-card">
+          <h3>UX/UI Design</h3>
+          <p>Clean interfaces and thoughtful user experiences. I design things people actually enjoy using.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- THE EDITORIAL PROCESS -->
-  <section class="process" id="process">
-    <div class="section-inner">
-      <div class="process-layout">
-        <div class="process-left">
-          <h2>The Editorial Process</h2>
-          <p>A sharp journey from raw idea to refined authority. No shortcuts, just pure precision.</p>
-          <div class="process-visual"></div>
+  <!-- HOW I WORK -->
+  <section class="process">
+    <div class="process-inner">
+      <h2>How I Work</h2>
+      <div class="process-steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Listen</h3>
+          <p>We talk about your idea, goals, and what success looks like.</p>
         </div>
-        <div class="process-steps">
-          <div class="process-step">
-            <div class="step-num">01</div>
-            <div class="step-content">
-              <h3>Discovery &amp; Audit</h3>
-              <p>We dissect your current ecosystem to identify gaps in authority and narrative alignment.</p>
-            </div>
-          </div>
-          <div class="process-step">
-            <div class="step-num">02</div>
-            <div class="step-content">
-              <h3>Semantic Framing</h3>
-              <p>Developing a unique lexicon and tone of voice that aligns with your technical DNA.</p>
-            </div>
-          </div>
-          <div class="process-step">
-            <div class="step-num">03</div>
-            <div class="step-content">
-              <h3>Draft Synthesis</h3>
-              <p>Rapid iteration cycles to build high-fidelity content drafts that spark your truth.</p>
-            </div>
-          </div>
-          <div class="process-step">
-            <div class="step-num">04</div>
-            <div class="step-content">
-              <h3>Editorial Polish</h3>
-              <p>The final surgical pass, ensuring every word serves a purpose and every sentence carries weight.</p>
-            </div>
-          </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Design</h3>
+          <p>I sketch out the experience and get alignment before writing code.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATS -->
-  <section class="stats" id="stats">
-    <div class="stats-grid">
-      <div class="stat-item">
-        <div class="stat-number">98%</div>
-        <div class="stat-label">Retention Rate</div>
-        <div class="stat-desc">Long-term partnerships built on consistent excellence.</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">240+</div>
-        <div class="stat-label">Technical Assets</div>
-        <div class="stat-desc">Deep dive into the world's most complex software documentation.</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number">1.2M</div>
-        <div class="stat-label">Words Published</div>
-        <div class="stat-desc">Transforming raw technical data into meaningful thought leadership.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TOOLSET -->
-  <section class="toolset" id="toolset">
-    <div class="section-inner">
-      <div class="toolset-header">
-        <div class="section-label">Platform Agnostic</div>
-        <h2>Our Precision Toolset</h2>
-      </div>
-      <div class="toolset-grid">
-        <div class="tool-item">
-          <div class="tool-item-icon">&#9881;</div>
-          <span>React</span>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Build</h3>
+          <p>Rapid development using vibe coding. You see progress daily.</p>
         </div>
-        <div class="tool-item">
-          <div class="tool-item-icon">&#9655;</div>
-          <span>Next.js</span>
-        </div>
-        <div class="tool-item">
-          <div class="tool-item-icon">&#11042;</div>
-          <span>Node.js</span>
-        </div>
-        <div class="tool-item">
-          <div class="tool-item-icon">&#120279;</div>
-          <span>TypeScript</span>
-        </div>
-        <div class="tool-item">
-          <div class="tool-item-icon">&#10070;</div>
-          <span>Tailwind</span>
-        </div>
-        <div class="tool-item">
-          <div class="tool-item-icon">&#128451;</div>
-          <span>Postgres</span>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Ship</h3>
+          <p>Polish, test, launch. I stick around to make sure it lands.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="cta" id="contact">
-    <h2>Ready to elevate your authority?</h2>
-    <p>Join the ranks of high-performance teams who prioritize clarity over noise.</p>
-    <a href="mailto:judgedeanllc@gmail.com" class="btn-cta">Book a Consultation</a>
+  <section class="cta">
+    <h2>Have an idea? Let's build it.</h2>
+    <p>I'm available for new projects. Reach out and let's see what we can create together.</p>
+    <a href="mailto:judgedeanllc@gmail.com" class="btn-cta">judgedeanllc@gmail.com</a>
   </section>
 
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
-      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
-        <span>&copy; 2026 Judge Dean LLC. All rights reserved.</span>
-        <a href="mailto:judgedeanllc@gmail.com" style="color: var(--gray-400); text-decoration: none; font-size: 12px; transition: color 0.2s;">judgedeanllc@gmail.com</a>
-      </div>
+      <span>&copy; 2026 Judge Dean LLC</span>
+      <a href="mailto:judgedeanllc@gmail.com">judgedeanllc@gmail.com</a>
     </div>
   </footer>
 
-  <script>
-    window.addEventListener('scroll', () => {
-      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
-    });
-  </script>
 </body>
 </html>
