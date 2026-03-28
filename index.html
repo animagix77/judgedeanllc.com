@@ -1,57 +1,746 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judge Dean LLC</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
-            background: #0A0A0A;
-            color: #E0E0E0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
-        .center {
-            text-align: center;
-            padding: 24px;
-        }
-        h1 {
-            font-family: 'SF Mono', 'Menlo', 'Courier New', monospace;
-            font-size: 24px;
-            color: #FFB000;
-            letter-spacing: 3px;
-            margin-bottom: 24px;
-        }
-        a {
-            display: inline-block;
-            font-family: 'SF Mono', 'Menlo', 'Courier New', monospace;
-            font-size: 14px;
-            color: #FFB000;
-            text-decoration: none;
-            border: 1px solid rgba(255, 176, 0, 0.3);
-            padding: 12px 24px;
-            border-radius: 6px;
-            transition: background 0.2s;
-        }
-        a:hover {
-            background: rgba(255, 176, 0, 0.1);
-        }
-        .footer {
-            margin-top: 48px;
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.25);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judge Dean LLC | Crafting Clarity Through Editorial Precision</title>
+  <meta name="description" content="Judge Dean LLC partners with high-growth tech companies to distill complex architectures into clear, narrative-driven content that commands authority.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --black: #111111;
+      --white: #ffffff;
+      --gray-50: #f9f9f9;
+      --gray-100: #f0f0f0;
+      --gray-200: #e4e4e4;
+      --gray-300: #d1d1d1;
+      --gray-400: #a0a0a0;
+      --gray-500: #737373;
+      --gray-600: #525252;
+      --gray-700: #404040;
+      --gray-800: #262626;
+      --gray-900: #171717;
+      --purple: #7c5cfc;
+      --purple-light: #ede9fe;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--black);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--black);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--gray-500);
+      font-size: 14px;
+      font-weight: 400;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--black); }
+    .nav-cta {
+      background: var(--black) !important;
+      color: var(--white) !important;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      transition: opacity 0.2s !important;
+    }
+    .nav-cta:hover { opacity: 0.85 !important; }
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+    }
+    .mobile-toggle span {
+      display: block;
+      width: 22px;
+      height: 1.5px;
+      background: var(--black);
+      margin: 5px 0;
+      transition: 0.3s;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 160px 40px 80px;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .hero-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--gray-400);
+      margin-bottom: 32px;
+    }
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(36px, 5.5vw, 64px);
+      font-weight: 400;
+      color: var(--black);
+      line-height: 1.15;
+      max-width: 720px;
+      margin: 0 auto 24px;
+      letter-spacing: -0.5px;
+    }
+    .hero p {
+      font-size: 16px;
+      color: var(--gray-500);
+      max-width: 520px;
+      margin: 0 auto 48px;
+      line-height: 1.7;
+    }
+    .hero-image {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      border-radius: 12px;
+      overflow: hidden;
+      aspect-ratio: 16/9;
+      background: var(--gray-900);
+      position: relative;
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .hero-image-placeholder {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, var(--gray-800) 0%, var(--gray-900) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .desk-scene {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%);
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .desk-scene::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.6) 100%);
+      z-index: 1;
+    }
+    .desk-scene .monitor {
+      width: 280px;
+      height: 180px;
+      background: #e8e8e8;
+      border-radius: 8px 8px 0 0;
+      position: relative;
+      z-index: 2;
+      margin-bottom: 60px;
+      box-shadow: 0 0 60px rgba(255,255,255,0.05);
+    }
+    .desk-scene .monitor::after {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 20px;
+      background: #666;
+      border-radius: 0 0 4px 4px;
+    }
+
+    /* ── SECTION BASE ── */
+    section { padding: 100px 40px; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--gray-400);
+      margin-bottom: 16px;
+    }
+
+    /* ── CRAFTING EXCELLENCE / CORE COMPETENCIES ── */
+    .competencies { background: var(--white); }
+    .competencies-header { margin-bottom: 56px; }
+    .competencies-header h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(28px, 3.5vw, 40px);
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+    .competencies-header p {
+      font-size: 15px;
+      color: var(--gray-500);
+      max-width: 480px;
+      line-height: 1.7;
+    }
+    .competencies-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .comp-card {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 36px 32px;
+      transition: all 0.3s;
+    }
+    .comp-card:hover {
+      border-color: var(--gray-300);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+    }
+    .comp-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: var(--gray-700);
+    }
+    .comp-card h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--black);
+    }
+    .comp-card p {
+      font-size: 14px;
+      color: var(--gray-500);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .comp-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+    .comp-tag {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--gray-600);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      padding: 4px 12px;
+      border-radius: 100px;
+    }
+    .comp-link {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--black);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 12px;
+    }
+    .comp-link:hover { text-decoration: underline; }
+
+    /* ── EDITORIAL PROCESS ── */
+    .process { background: var(--white); border-top: 1px solid var(--gray-200); }
+    .process-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+    }
+    .process-left h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(28px, 3.5vw, 40px);
+      font-weight: 400;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+    .process-left p {
+      font-size: 15px;
+      color: var(--gray-500);
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+    .process-visual {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: var(--black);
+      margin-top: 16px;
+    }
+    .process-steps { display: flex; flex-direction: column; gap: 36px; }
+    .process-step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .step-num {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--gray-300);
+      min-width: 28px;
+      padding-top: 2px;
+    }
+    .step-content h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--black);
+    }
+    .step-content p {
+      font-size: 14px;
+      color: var(--gray-500);
+      line-height: 1.7;
+    }
+
+    /* ── STATS ── */
+    .stats {
+      background: var(--gray-900);
+      color: var(--white);
+      padding: 80px 40px;
+    }
+    .stats-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+    .stat-item { text-align: center; }
+    .stat-number {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(36px, 5vw, 56px);
+      font-weight: 400;
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--gray-400);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+    }
+    .stat-desc {
+      font-size: 13px;
+      color: var(--gray-500);
+      margin-top: 12px;
+      line-height: 1.6;
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── TOOLSET / TECH STACK ── */
+    .toolset {
+      background: var(--white);
+      border-top: 1px solid var(--gray-200);
+    }
+    .toolset-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .toolset-header h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(24px, 3vw, 36px);
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    .toolset-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .tool-item {
+      aspect-ratio: 1;
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px 8px;
+      transition: all 0.2s;
+      text-align: center;
+    }
+    .tool-item:hover {
+      border-color: var(--gray-300);
+      background: var(--white);
+    }
+    .tool-item-icon { font-size: 24px; }
+    .tool-item span {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--gray-600);
+    }
+
+    /* ── CTA ── */
+    .cta {
+      background: var(--gray-900);
+      text-align: center;
+      padding: 100px 40px;
+    }
+    .cta h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+    .cta p {
+      font-size: 15px;
+      color: var(--gray-400);
+      max-width: 420px;
+      margin: 0 auto 40px;
+      line-height: 1.7;
+    }
+    .btn-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--white);
+      color: var(--black);
+      padding: 14px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--white);
+      color: var(--gray-500);
+      padding: 64px 40px 40px;
+      border-top: 1px solid var(--gray-200);
+    }
+    .footer-inner { max-width: 1200px; margin: 0 auto; }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .footer-brand .logo { font-size: 14px; }
+    .footer-brand p {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--gray-400);
+      max-width: 260px;
+      line-height: 1.7;
+    }
+    .footer-col h4 {
+      color: var(--black);
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .footer-col a {
+      display: block;
+      color: var(--gray-400);
+      text-decoration: none;
+      font-size: 13px;
+      margin-bottom: 10px;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: var(--black); }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding-top: 32px;
+      font-size: 12px;
+      color: var(--gray-400);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .mobile-toggle { display: block; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 24px 40px;
+        border-bottom: 1px solid var(--gray-200);
+        gap: 16px;
+      }
+      .nav-inner { padding: 0 24px; }
+      .hero { padding: 120px 24px 60px; }
+      section { padding: 72px 24px; }
+      .competencies-grid { grid-template-columns: 1fr; }
+      .process-layout { grid-template-columns: 1fr; gap: 48px; }
+      .stats { padding: 60px 24px; }
+      .stats-grid { grid-template-columns: 1fr; gap: 32px; }
+      .toolset-grid { grid-template-columns: repeat(3, 1fr); }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .cta { padding: 72px 24px; }
+    }
+
+    @media (max-width: 480px) {
+      .footer-top { grid-template-columns: 1fr; }
+      .toolset-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
 </head>
 <body>
-    <div class="center">
-        <h1>JUDGE DEAN LLC</h1>
-        <a href="/lastsignal.html">Last Signal - The Journey</a>
-        <div class="footer">&copy; 2026 Judge Dean LLC</div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">Studio</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#competencies">Work</a>
+        <a href="#process">Process</a>
+        <a href="#stats">Insights</a>
+        <a href="#toolset">Team</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+      <button class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-label">Precise Content Systems</div>
+    <h1>Crafting clarity through editorial precision.</h1>
+    <p>Judge Dean LLC partners with high-growth tech companies to distill complex architectures into clear, narrative-driven content that commands authority.</p>
+    <div class="hero-image">
+      <div class="desk-scene">
+        <div class="monitor"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <section class="competencies" id="competencies">
+    <div class="section-inner">
+      <div class="competencies-header">
+        <h2>Core Competencies</h2>
+        <p>Strategic content infrastructure for the new era of tech.</p>
+      </div>
+      <div class="competencies-grid">
+        <div class="comp-card">
+          <div class="comp-icon">A</div>
+          <h3>Content Infrastructure</h3>
+          <p>Decode the patterns that power your global communications, ensuring consistency across every touchpoint and voice.</p>
+          <div class="comp-tags">
+            <span class="comp-tag">Case Studies</span>
+            <span class="comp-tag">Global Narrative</span>
+          </div>
+        </div>
+        <div class="comp-card">
+          <div class="comp-icon">&#9998;</div>
+          <h3>Ghostwriting</h3>
+          <p>Premium editorial support for technical leaders and founders who need a clear, authoritative voice.</p>
+          <a href="#contact" class="comp-link">View Case Studies &rarr;</a>
+        </div>
+        <div class="comp-card">
+          <div class="comp-icon">&#9776;</div>
+          <h3>Technical Docs</h3>
+          <p>Transform raw data and complex information into developer-friendly technical documentation.</p>
+        </div>
+        <div class="comp-card">
+          <div class="comp-icon" style="position:relative;overflow:hidden;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 3h14v14H3z" stroke="currentColor" stroke-width="1.5"/><path d="M3 10l7-7 7 7" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Brand Narrative</h3>
+          <p>Crafting the story of your software through rigorous storytelling frameworks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE EDITORIAL PROCESS -->
+  <section class="process" id="process">
+    <div class="section-inner">
+      <div class="process-layout">
+        <div class="process-left">
+          <h2>The Editorial Process</h2>
+          <p>A sharp journey from raw idea to refined authority. No shortcuts, just pure precision.</p>
+          <div class="process-visual"></div>
+        </div>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h3>Discovery &amp; Audit</h3>
+              <p>We dissect your current ecosystem to identify gaps in authority and narrative alignment.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h3>Semantic Framing</h3>
+              <p>Developing a unique lexicon and tone of voice that aligns with your technical DNA.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h3>Draft Synthesis</h3>
+              <p>Rapid iteration cycles to build high-fidelity content drafts that spark your truth.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">04</div>
+            <div class="step-content">
+              <h3>Editorial Polish</h3>
+              <p>The final surgical pass, ensuring every word serves a purpose and every sentence carries weight.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">98%</div>
+        <div class="stat-label">Retention Rate</div>
+        <div class="stat-desc">Long-term partnerships built on consistent excellence.</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">240+</div>
+        <div class="stat-label">Technical Assets</div>
+        <div class="stat-desc">Deep dive into the world's most complex software documentation.</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">1.2M</div>
+        <div class="stat-label">Words Published</div>
+        <div class="stat-desc">Transforming raw technical data into meaningful thought leadership.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLSET -->
+  <section class="toolset" id="toolset">
+    <div class="section-inner">
+      <div class="toolset-header">
+        <div class="section-label">Platform Agnostic</div>
+        <h2>Our Precision Toolset</h2>
+      </div>
+      <div class="toolset-grid">
+        <div class="tool-item">
+          <div class="tool-item-icon">&#9881;</div>
+          <span>React</span>
+        </div>
+        <div class="tool-item">
+          <div class="tool-item-icon">&#9655;</div>
+          <span>Next.js</span>
+        </div>
+        <div class="tool-item">
+          <div class="tool-item-icon">&#11042;</div>
+          <span>Node.js</span>
+        </div>
+        <div class="tool-item">
+          <div class="tool-item-icon">&#120279;</div>
+          <span>TypeScript</span>
+        </div>
+        <div class="tool-item">
+          <div class="tool-item-icon">&#10070;</div>
+          <span>Tailwind</span>
+        </div>
+        <div class="tool-item">
+          <div class="tool-item-icon">&#128451;</div>
+          <span>Postgres</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <h2>Ready to elevate your authority?</h2>
+    <p>Join the ranks of high-performance teams who prioritize clarity over noise.</p>
+    <a href="mailto:judgedeanllc@gmail.com" class="btn-cta">Book a Consultation</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        <span>&copy; 2026 Judge Dean LLC. All rights reserved.</span>
+        <a href="mailto:judgedeanllc@gmail.com" style="color: var(--gray-400); text-decoration: none; font-size: 12px; transition: color 0.2s;">judgedeanllc@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
 </body>
 </html>
