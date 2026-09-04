@@ -1,125 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DCProximity - Support</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DCProximity — Support</title>
+  <meta name="description" content="Help, common questions, and contact information for DCProximity." />
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #020617;
-      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      min-height: 100vh;
-    }
-    .container {
-      max-width: 640px;
+      max-width: 720px;
       margin: 0 auto;
-      padding: 48px 24px;
+      padding: 40px 22px 80px;
+      color: #1a1a1a;
+      background: #ffffff;
     }
-    .logo {
-      font-size: 48px;
-      margin-bottom: 8px;
+    @media (prefers-color-scheme: dark) {
+      body { color: #e8e8ea; background: #0b0e16; }
+      a { color: #6ea8fe; }
+      h1, h2 { color: #f5f6f8; }
+      .meta { color: #9aa0aa; }
+      .card { background: rgba(59,130,246,0.08); border-color: rgba(110,168,254,0.28); }
     }
-    h1 {
-      font-size: 32px;
-      font-weight: 800;
-      color: #818cf8;
-      margin-bottom: 4px;
-    }
-    .tagline {
-      color: #64748b;
-      font-size: 14px;
-      font-family: 'SF Mono', 'Fira Code', monospace;
-      margin-bottom: 40px;
-    }
-    h2 {
-      font-size: 20px;
-      font-weight: 700;
-      color: #a5b4fc;
-      margin-top: 32px;
-      margin-bottom: 12px;
-    }
-    p, li {
-      color: #94a3b8;
-      font-size: 15px;
-      margin-bottom: 12px;
-    }
-    ul {
-      padding-left: 20px;
-      margin-bottom: 16px;
-    }
-    li { margin-bottom: 8px; }
-    strong { color: #cbd5e1; }
-    a {
-      color: #818cf8;
-      text-decoration: none;
-    }
-    a:hover { text-decoration: underline; }
-    .contact-box {
-      background: rgba(99, 102, 241, 0.1);
-      border: 1px solid rgba(99, 102, 241, 0.25);
-      border-radius: 12px;
-      padding: 24px;
-      margin-top: 24px;
-    }
-    .contact-box p { margin-bottom: 8px; }
-    .email {
-      font-size: 17px;
-      font-weight: 600;
-      color: #818cf8;
-    }
-    .footer {
-      margin-top: 48px;
-      padding-top: 24px;
-      border-top: 1px solid rgba(255,255,255,0.06);
-      font-size: 12px;
-      color: #475569;
-    }
+    h1 { font-size: 1.7rem; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; margin-top: 32px; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 28px; }
+    a { color: #2563eb; }
+    ul { padding-left: 20px; }
+    li { margin: 14px 0; }
+    .card { background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.28); border-radius: 10px; padding: 16px 18px; margin: 24px 0; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo">&#x1F4CA;</div>
-    <h1>DCProximity Support</h1>
-    <p class="tagline">Data Center Investment Intel</p>
+  <h1>DCProximity Support</h1>
+  <p class="meta">Help for the DCProximity iOS app · Judge Dean LLC</p>
 
-    <h2>How It Works</h2>
-    <p>DCProximity is a data center intelligence platform for real estate investors and community stakeholders. Browse an interactive map of US data centers, monitor construction alerts, read community reviews, and analyze property value impacts — all from your iPhone.</p>
-
-    <h2>Frequently Asked Questions</h2>
-
-    <ul>
-      <li><strong>Do I need to create an account?</strong><br>
-        No. All core features — the map, alerts, reviews, and watchlist — work without an account. An account is only needed for Pro features like investment reports and personalized alerts.</li>
-
-      <li><strong>What is the Pro subscription?</strong><br>
-        DCProximity Pro unlocks advanced investment analysis, AI-powered reports, and custom alert configurations. It is available as a monthly subscription through the App Store.</li>
-
-      <li><strong>How is property data sourced?</strong><br>
-        Property value data is aggregated from public sources and real estate data providers. Values shown are estimates intended for informational purposes and should not be used as the sole basis for investment decisions.</li>
-
-      <li><strong>Where do community reviews come from?</strong><br>
-        Reviews are aggregated from multiple public platforms including Reddit, Google, YouTube, Yelp, and Facebook. Sentiment analysis is applied to categorize reviews as positive, mixed, or negative.</li>
-
-      <li><strong>How do construction alerts work?</strong><br>
-        Alerts are generated when new data center construction, expansion, or maintenance activity is detected. Each alert includes an impact level (critical, high, or medium) and details about the affected area.</li>
-
-      <li><strong>The app is not loading or showing errors.</strong><br>
-        Make sure you have an internet connection and try restarting the app. If the problem persists, please contact us using the email below with a description of the issue.</li>
-    </ul>
-
-    <h2>Contact Us</h2>
-    <div class="contact-box">
-      <p>For bug reports, feature requests, or any questions:</p>
-      <p class="email"><a href="mailto:judgedeanllc@gmail.com">judgedeanllc@gmail.com</a></p>
-      <p>We typically respond within 48 hours.</p>
-    </div>
-
-    <div class="footer">
-      <p>&copy; 2026 Judge Dean LLC. All rights reserved.</p>
-    </div>
+  <div class="card">
+    DCProximity helps you explore a selected catalog of U.S. data centers, follow public sources,
+    save places, and prepare useful questions for your community. The app is free and requires no account.
   </div>
+
+  <h2>Common questions</h2>
+  <ul>
+    <li><strong>Why is a facility missing?</strong><br />
+      The catalog is a selected guide, not a complete census. A blank area does not mean there are no
+      data centers. Send us the location and a public source if you know of a facility we should review.</li>
+
+    <li><strong>Do I have to share my location?</strong><br />
+      No. Location access is optional. If you allow it, the app uses your location on your device to center
+      the map and calculate nearby distances. You can change access at any time in iOS Settings.</li>
+
+    <li><strong>Where are my saves, preferences, and notes stored?</strong><br />
+      They stay on your device. Private notes are never published. Open a facility page to edit or delete
+      its note, or use Saved to remove a bookmark.</li>
+
+    <li><strong>How should I read the figures and sources?</strong><br />
+      Reported figures include a source, period, and geographic scope. Estimated figures are illustrative.
+      “Not available” means the catalog does not have a usable figure. Linked reporting may describe a
+      campus or region rather than one building.</li>
+
+    <li><strong>Are tips required?</strong><br />
+      No. Every feature is free. Optional tips are one-time Apple In-App Purchases, unlock no content, and
+      do not create a subscription.</li>
+
+    <li><strong>How do I report an error or suggest a source?</strong><br />
+      Email the facility name, location, correction, and a public link. We review submissions before
+      changing the catalog.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <div class="card">
+    For support, bug reports, source corrections, or feature requests, email
+    <a href="mailto:info@judgedeanllc.com">info@judgedeanllc.com</a>.
+  </div>
+
+  <p><a href="https://judgedeanllc.com/dcproximity_privacy.html">Read the DCProximity Privacy Policy</a></p>
+  <p class="meta">© 2026 Judge Dean LLC. All rights reserved.</p>
 </body>
 </html>
