@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "publishedAt": "2026-09-05T12:46:14Z",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "Codex source audit",
+    "reviewedAt": "2026-09-05",
+    "method": "Primary-source identity and claim review; no independent site inspection."
+  },
+  "dataCenters": [
+    {
+      "id": 4,
+      "name": "Meta DeKalb Data Center",
+      "company": "Meta",
+      "city": "DeKalb",
+      "state": "IL",
+      "lat": 41.93,
+      "lng": -88.75,
+      "status": "operational",
+      "kind": "campus",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "Meta announced that its DeKalb campus began serving traffic in November 2023. The earlier construction forecast in this app was unsupported and has been withdrawn.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Meta DeKalb Data Center",
+          "scope": "Meta DeKalb campus",
+          "source": {
+            "label": "Meta: DeKalb opening announcement",
+            "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+            "publishedAt": "2023-11-29",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operational",
+          "scope": "Meta DeKalb campus",
+          "source": {
+            "label": "Meta: DeKalb opening announcement",
+            "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+            "publishedAt": "2023-11-29",
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Microsoft Greater San Antonio — area overview",
+      "company": "Microsoft",
+      "city": "San Antonio",
+      "state": "TX",
+      "lat": 29.42,
+      "lng": -98.49,
+      "status": "operational",
+      "kind": "area",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "Microsoft reports operating data centers in Bexar and Medina counties. This entry describes the Greater San Antonio area, not one building. Individual projects may have different construction stages.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Microsoft Greater San Antonio — area overview",
+          "scope": "Microsoft San Antonio area",
+          "source": {
+            "label": "Microsoft: Greater San Antonio",
+            "url": "https://local.microsoft.com/communities/americas/greater-san-antonio/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operating data centers in this area",
+          "scope": "Microsoft San Antonio area",
+          "source": {
+            "label": "Microsoft: Greater San Antonio",
+            "url": "https://local.microsoft.com/communities/americas/greater-san-antonio/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "CyrusOne Chandler PHX1–PHX8",
+      "company": "CyrusOne",
+      "city": "Chandler",
+      "state": "AZ",
+      "lat": 33.31,
+      "lng": -111.84,
+      "status": "operational",
+      "kind": "campus",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "CyrusOne identifies its PHX1–PHX8 campus in Chandler. Its listed IT capacity covers the campus and is not a measurement of current electricity consumption.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "CyrusOne Chandler PHX1–PHX8",
+          "scope": "CyrusOne Chandler campus",
+          "source": {
+            "label": "CyrusOne: Chandler campus",
+            "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operational",
+          "scope": "CyrusOne Chandler campus",
+          "source": {
+            "label": "CyrusOne: Chandler campus",
+            "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Advertised total IT capacity",
+          "value": "169 MW",
+          "scope": "PHX1–PHX8 campus; advertised capacity, not measured demand",
+          "source": {
+            "label": "CyrusOne: Chandler campus",
+            "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ],
+      "power": "169 MW"
+    },
+    {
+      "id": 8,
+      "name": "Apple Mesa Data Center",
+      "company": "Apple",
+      "city": "Mesa",
+      "state": "AZ",
+      "lat": 33.42,
+      "lng": -111.83,
+      "status": "operational",
+      "kind": "campus",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "Apple’s 2026 report describes its operating Mesa data center and reports electricity use for 2025. The earlier 2027 construction forecast in this app was unsupported and has been withdrawn.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Apple Mesa Data Center",
+          "scope": "Apple Mesa campus",
+          "source": {
+            "label": "Apple: 2026 Environmental Progress Report",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2026.pdf",
+            "publishedAt": "2026",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operational",
+          "scope": "Apple Mesa campus",
+          "source": {
+            "label": "Apple: 2026 Environmental Progress Report",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2026.pdf",
+            "publishedAt": "2026",
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Google Council Bluffs",
+      "company": "Google",
+      "city": "Council Bluffs",
+      "state": "IA",
+      "lat": 41.26,
+      "lng": -95.86,
+      "status": "operational",
+      "kind": "campus",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "Google identifies its established Council Bluffs data centers and describes further expansion. This entry covers the Council Bluffs location; Iowa-wide investment figures are not attributed to this campus.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Google Council Bluffs",
+          "scope": "Google Council Bluffs campus",
+          "source": {
+            "label": "Google: Iowa data centers",
+            "url": "https://datacenters.google/locations/iowa/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operational",
+          "scope": "Google Council Bluffs campus",
+          "source": {
+            "label": "Google: Iowa data centers",
+            "url": "https://datacenters.google/locations/iowa/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Meta New Albany Data Center",
+      "company": "Meta",
+      "city": "New Albany",
+      "state": "OH",
+      "lat": 40.08,
+      "lng": -82.81,
+      "status": "operational",
+      "kind": "campus",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "Meta identifies its New Albany data center as part of its operating infrastructure. The earlier expansion dimensions and power increase in this app did not have matched evidence and have been withdrawn.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Meta New Albany Data Center",
+          "scope": "Meta New Albany campus",
+          "source": {
+            "label": "Meta: New Albany",
+            "url": "https://datacenters.atmeta.com/ohio-new-albany/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operational",
+          "scope": "Meta New Albany campus",
+          "source": {
+            "label": "Meta: New Albany",
+            "url": "https://datacenters.atmeta.com/ohio-new-albany/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Microsoft Quincy — area overview",
+      "company": "Microsoft",
+      "city": "Quincy",
+      "state": "WA",
+      "lat": 47.23,
+      "lng": -119.85,
+      "status": "operational",
+      "kind": "area",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
+      "lastCheckedAt": "2026-09-05",
+      "summary": "Microsoft reports operating data centers in Quincy. This entry covers the Quincy area, not one building. Development in Malaga and East Wenatchee is outside this entry’s scope.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Microsoft Quincy — area overview",
+          "scope": "Microsoft Quincy area",
+          "source": {
+            "label": "Microsoft: Washington data centers",
+            "url": "https://local.microsoft.com/communities/americas/quincy/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operating data centers in this area",
+          "scope": "Microsoft Quincy area",
+          "source": {
+            "label": "Microsoft: Washington data centers",
+            "url": "https://local.microsoft.com/communities/americas/quincy/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ]
+    }
+  ],
+  "propertyData": {},
+  "impactById": {
+    "8": {
+      "annualElectricityKwh": 563000000,
+      "metricEvidence": {
+        "annualElectricityKwh": {
+          "status": "reported",
+          "source": {
+            "label": "Apple: 2026 Environmental Progress Report",
+            "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2026.pdf",
+            "publishedAt": "2026",
+            "lastCheckedAt": "2026-09-05"
+          },
+          "period": "2025",
+          "scope": "Apple Mesa data center; operator-reported annual electricity use"
+        }
+      }
+    }
+  },
+  "alerts": [
+    {
+      "id": 101,
+      "dcId": 4,
+      "title": "DeKalb began serving traffic",
+      "description": "Meta announced that its DeKalb data center was online. This historical announcement replaces the unsupported 2026 opening forecast.",
+      "date": "2023-11-29",
+      "type": "new_build",
+      "impact": "medium",
+      "source": {
+        "label": "Meta: DeKalb opening announcement",
+        "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+        "publishedAt": "2023-11-29",
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": 102,
+      "dcId": 8,
+      "title": "Mesa electricity reporting for 2025",
+      "description": "Apple’s 2026 environmental report provides annual electricity use for Mesa. This is historical operating data, not a new construction announcement.",
+      "date": "2026",
+      "type": "report",
+      "impact": "medium",
+      "source": {
+        "label": "Apple: 2026 Environmental Progress Report",
+        "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2026.pdf",
+        "publishedAt": "2026",
+        "lastCheckedAt": "2026-09-05"
+      }
+    }
+  ],
+  "reviews": [],
+  "retiredEntries": [
+    {
+      "id": 1,
+      "name": "Ashburn Hyperscale Campus (DC1)",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 2,
+      "name": "AWS US-East-1",
+      "reason": "This name describes an AWS cloud region spanning multiple availability zones, not a single verified facility. Its single map pin and campus figures have been withdrawn.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 3,
+      "name": "Midlothian Data Center",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 6,
+      "name": "DFW Data Center",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 9,
+      "name": "Fayetteville Campus (metro Atlanta)",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 10,
+      "name": "Santa Clara Data Center",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 11,
+      "name": "Reston Data Center",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 12,
+      "name": "Lithia Springs Planned Campus",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 13,
+      "name": "Austin Data Center",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 14,
+      "name": "AWS Oregon PDX",
+      "reason": "This name describes an AWS cloud region spanning multiple availability zones, not a single verified facility. Its single map pin and campus figures have been withdrawn.",
+      "withdrawnAt": "2026-09-05"
+    },
+    {
+      "id": 18,
+      "name": "Phoenix Metro Campus",
+      "reason": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here.",
+      "withdrawnAt": "2026-09-05"
+    }
+  ],
+  "changes": [
+    {
+      "id": "audit-20260905-4",
+      "dcId": 4,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Identity and reported status now link to operator evidence. Unsupported figures removed; map location is approximate.",
+      "source": {
+        "label": "Meta: DeKalb opening announcement",
+        "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+        "publishedAt": "2023-11-29",
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-5",
+      "dcId": 5,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Reclassified as an area overview; unsupported building figures removed.",
+      "source": {
+        "label": "Microsoft: Greater San Antonio",
+        "url": "https://local.microsoft.com/communities/americas/greater-san-antonio/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-7",
+      "dcId": 7,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Identity and reported status now link to operator evidence. Unsupported figures removed; map location is approximate.",
+      "source": {
+        "label": "CyrusOne: Chandler campus",
+        "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-8",
+      "dcId": 8,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Identity and reported status now link to operator evidence. Unsupported figures removed; map location is approximate.",
+      "source": {
+        "label": "Apple: 2026 Environmental Progress Report",
+        "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2026.pdf",
+        "publishedAt": "2026",
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-15",
+      "dcId": 15,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Identity and reported status now link to operator evidence. Unsupported figures removed; map location is approximate.",
+      "source": {
+        "label": "Google: Iowa data centers",
+        "url": "https://datacenters.google/locations/iowa/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-16",
+      "dcId": 16,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Identity and reported status now link to operator evidence. Unsupported figures removed; map location is approximate.",
+      "source": {
+        "label": "Meta: New Albany",
+        "url": "https://datacenters.atmeta.com/ohio-new-albany/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-17",
+      "dcId": 17,
+      "publishedAt": "2026-09-05",
+      "kind": "correction",
+      "title": "Source audit completed",
+      "description": "Reclassified as an area overview; unsupported building figures removed.",
+      "source": {
+        "label": "Microsoft: Washington data centers",
+        "url": "https://local.microsoft.com/communities/americas/quincy/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "audit-20260905-1",
+      "dcId": 1,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-2",
+      "dcId": 2,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "This name describes an AWS cloud region spanning multiple availability zones, not a single verified facility. Its single map pin and campus figures have been withdrawn."
+    },
+    {
+      "id": "audit-20260905-3",
+      "dcId": 3,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-6",
+      "dcId": 6,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-9",
+      "dcId": 9,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-10",
+      "dcId": 10,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-11",
+      "dcId": 11,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-12",
+      "dcId": 12,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-13",
+      "dcId": 13,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "audit-20260905-14",
+      "dcId": 14,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "This name describes an AWS cloud region spanning multiple availability zones, not a single verified facility. Its single map pin and campus figures have been withdrawn."
+    },
+    {
+      "id": "audit-20260905-18",
+      "dcId": 18,
+      "publishedAt": "2026-09-05",
+      "kind": "withdrawal",
+      "title": "Catalog entry withdrawn",
+      "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    }
+  ]
+}
