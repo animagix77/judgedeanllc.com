@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
-  "publishedAt": "2026-09-05T12:46:14Z",
+  "revision": 2,
+  "publishedAt": "2026-09-05T17:30:00Z",
   "review": {
     "status": "approved",
-    "reviewedBy": "Codex source audit",
+    "reviewedBy": "Codex source audit (owner-requested update)",
     "reviewedAt": "2026-09-05",
-    "method": "Primary-source identity and claim review; no independent site inspection."
+    "method": "Claim-by-claim review of official city, Census Bureau, and operator sources; geographic scope is stated on every fact."
   },
   "dataCenters": [
     {
@@ -229,7 +229,7 @@
       "locationPrecision": "city",
       "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
       "lastCheckedAt": "2026-09-05",
-      "summary": "Meta identifies its New Albany data center as part of its operating infrastructure. The earlier expansion dimensions and power increase in this app did not have matched evidence and have been withdrawn.",
+      "summary": "Meta operates a large, multi-building campus south of SR-161. Official records document a 600+ acre site, active city-listed building projects, regional-grid power, city utility context, and a July 2026 noise issue under mitigation. Housing and tax figures below describe New Albany and must be checked against a specific address.",
       "facts": [
         {
           "label": "Identity and operator",
@@ -249,6 +249,171 @@
           "source": {
             "label": "Meta: New Albany",
             "url": "https://datacenters.atmeta.com/ohio-new-albany/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "CAMPUS · Site footprint",
+          "value": "More than 600 acres south of SR-161",
+          "scope": "Meta New Albany campus; current site area reported by the City, not acres of building footprint",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Current building records",
+          "value": "City-listed Meta buildings range from 13,243 to 302,944 square feet",
+          "scope": "Individual Meta-labeled commercial projects on the City's monthly project page; this is a range, not a total campus area",
+          "source": {
+            "label": "City of New Albany: Project Updates",
+            "url": "https://newalbanyohio.org/community-development/project-updates/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Reported noise",
+          "value": "Periodic campus noise reported in July 2026; mitigation work is underway",
+          "scope": "Meta campus south of SR-161, including work along Morse Road; no home-specific sound reading is published",
+          "source": {
+            "label": "City of New Albany: Neighbor Noise Update",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Noise response",
+          "value": "Phased fan ramp-up, a temporary sound wall, possible berm or permanent wall, and sound attenuating equipment",
+          "scope": "Mitigation steps reported by the City for the Meta New Albany campus after the July 2026 complaint",
+          "source": {
+            "label": "City of New Albany: Neighbor Noise Update",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "WATER · Utility system",
+          "value": "Water and sewer are provided by the City of Columbus under contract",
+          "scope": "New Albany businesses; citywide utility arrangement, not Meta-specific consumption",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "WATER · Capacity context",
+          "value": "The City says data centers have not required additional water capacity",
+          "scope": "All New Albany data centers; City statement does not publish a Meta campus daily-use figure",
+          "source": {
+            "label": "City of New Albany: Data Center FAQs",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Grid arrangement",
+          "value": "The campus draws from the regional electric grid; the City says Meta pays the full cost of the energy it uses",
+          "scope": "Meta New Albany campus; this does not quantify household-rate effects",
+          "source": {
+            "label": "City of New Albany: Meta Energy Statement",
+            "url": "https://newalbanyohio.org/news/2026/01/statement-regarding-metas-nuclear-energy-projects/",
+            "publishedAt": "2026-01-15",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "INFRASTRUCTURE · Meta-linked expansion",
+          "value": "Meta revenue supported Beech Road corridor road, water, and sewer work that opened more than 800 acres for development",
+          "scope": "City-reported infrastructure financing and economic-development effect; not a household savings estimate",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Home value",
+          "value": "$772,100 median owner-occupied home value",
+          "scope": "New Albany city, 2020–2024 Census estimate; area context, not a Meta-caused change or current listing price",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Rent",
+          "value": "$2,355 median monthly gross rent",
+          "scope": "New Albany city, 2020–2024 Census estimate; gross rent includes contract rent plus applicable utilities and fuels",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Owner costs",
+          "value": "$3,737 median monthly owner cost with a mortgage",
+          "scope": "New Albany city, 2020–2024 Census estimate; includes selected ownership costs and is not a payment quote",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "TAXES · Household property-tax reference",
+          "value": "$2,421.88 annually per $100,000 of fair market value for 2025",
+          "scope": "Tax District 222 only: City of New Albany, Franklin County, New Albany-Plain schools, and Plain Township Fire; verify the exact parcel district",
+          "source": {
+            "label": "City of New Albany: Taxes",
+            "url": "https://newalbanyohio.org/community-resources/taxes/",
+            "publishedAt": "2025-03-24",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "TAXES · Municipal income tax",
+          "value": "2.0% on earned income, with a 100% credit up to 2.0% for tax paid to another municipality",
+          "scope": "City of New Albany residents; jurisdiction can differ even with a New Albany mailing address",
+          "source": {
+            "label": "City of New Albany: Taxes",
+            "url": "https://newalbanyohio.org/community-resources/taxes/",
+            "publishedAt": "2025-03-24",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "PUBLIC FINANCE · Data-center revenue",
+          "value": "Approximately $10 million in community development charges for tax year 2024",
+          "scope": "All New Albany data-center projects combined; the City does not attribute this total to Meta alone",
+          "source": {
+            "label": "City of New Albany: City Finances",
+            "url": "https://datacenters.newalbanyohio.org/city-finances/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "PUBLIC FINANCE · Incentive oversight",
+          "value": "Real-property abatements are reviewed annually by the Tax Incentive Review Council",
+          "scope": "Citywide CRA abatements; specific agreement terms and parcel taxes must be checked separately",
+          "source": {
+            "label": "City of New Albany: City Finances",
+            "url": "https://datacenters.newalbanyohio.org/city-finances/",
             "publishedAt": null,
             "lastCheckedAt": "2026-09-05"
           }
@@ -312,6 +477,22 @@
           "scope": "Apple Mesa data center; operator-reported annual electricity use"
         }
       }
+    },
+    "16": {
+      "waterSource": "Municipal",
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          },
+          "period": "Current city utility arrangement; checked 2026-09-05",
+          "scope": "New Albany businesses receive water and sewer from Columbus under contract; no Meta-specific daily-use figure is stated"
+        }
+      }
     }
   },
   "alerts": [
@@ -342,6 +523,36 @@
         "label": "Apple: 2026 Environmental Progress Report",
         "url": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2026.pdf",
         "publishedAt": "2026",
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": 103,
+      "dcId": 16,
+      "title": "City reports Meta campus noise mitigation",
+      "description": "After periodic noise was reported in July 2026, the City said Meta changed fan ramp-up, planned to reconstruct a temporary sound wall along Morse Road, began assessing a berm or permanent wall, and was installing sound attenuating equipment.",
+      "date": "2026-07",
+      "type": "report",
+      "impact": "high",
+      "source": {
+        "label": "City of New Albany: Neighbor Noise Update",
+        "url": "https://datacenters.newalbanyohio.org/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": 104,
+      "dcId": 16,
+      "title": "City clarifies the campus power arrangement",
+      "description": "The City said Meta's New Albany campus draws power from the regional electric grid, Meta pays the full cost of its energy, and no nuclear generation facility is planned in New Albany as part of Meta's announced energy agreements.",
+      "date": "2026-01-15",
+      "type": "report",
+      "impact": "medium",
+      "source": {
+        "label": "City of New Albany: Meta Energy Statement",
+        "url": "https://newalbanyohio.org/news/2026/01/statement-regarding-metas-nuclear-energy-projects/",
+        "publishedAt": "2026-01-15",
         "lastCheckedAt": "2026-09-05"
       }
     }
@@ -496,6 +707,20 @@
       "source": {
         "label": "Meta: New Albany",
         "url": "https://datacenters.atmeta.com/ohio-new-albany/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": "new-albany-context-20260905-16",
+      "dcId": 16,
+      "publishedAt": "2026-09-05",
+      "kind": "update",
+      "title": "New Albany buying context added",
+      "description": "Added official campus, construction, noise, water, power, infrastructure, housing-cost, household-tax, and public-finance context with scope labels and source links.",
+      "source": {
+        "label": "City of New Albany: Data Center Information",
+        "url": "https://datacenters.newalbanyohio.org/",
         "publishedAt": null,
         "lastCheckedAt": "2026-09-05"
       }
