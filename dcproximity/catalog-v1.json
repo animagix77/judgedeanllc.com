@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
-  "publishedAt": "2026-09-05T17:30:00Z",
+  "revision": 5,
+  "publishedAt": "2026-09-17T13:00:00Z",
   "review": {
     "status": "approved",
-    "reviewedBy": "Codex source audit (owner-requested update)",
-    "reviewedAt": "2026-09-05",
-    "method": "Claim-by-claim review of official city, Census Bureau, and operator sources; geographic scope is stated on every fact."
+    "reviewedBy": "Judge Dean LLC automated source review",
+    "reviewedAt": "2026-09-17",
+    "method": "Primary-source expansion to Ashburn and The Dalles; City of Mesa GIS location and Chandler operator schedule reviewed. Existing evidence dates preserved. No resident reports fabricated or published."
   },
   "dataCenters": [
     {
@@ -21,7 +21,7 @@
       "kind": "campus",
       "locationPrecision": "city",
       "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "lastCheckedAt": "2026-09-17",
       "summary": "Meta announced that its DeKalb campus began serving traffic in November 2023. The earlier construction forecast in this app was unsupported and has been withdrawn.",
       "facts": [
         {
@@ -32,7 +32,7 @@
             "label": "Meta: DeKalb opening announcement",
             "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
             "publishedAt": "2023-11-29",
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
           }
         },
         {
@@ -43,7 +43,139 @@
             "label": "Meta: DeKalb opening announcement",
             "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
             "publishedAt": "2023-11-29",
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Local supply",
+          "value": "Groundwater from nine city wells",
+          "scope": "DeKalb municipal system; undated utility description, not Meta water consumption.",
+          "source": {
+            "label": "City of DeKalb: Wells & Treatments",
+            "url": "https://www.cityofdekalb.com/382/Wells-Treatments",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Treatment network",
+          "value": "Five ion-exchange / iron-filtration treatment plants",
+          "scope": "Citywide water infrastructure; does not establish spare capacity available to a campus.",
+          "source": {
+            "label": "City of DeKalb: Wells & Treatments",
+            "url": "https://www.cityofdekalb.com/382/Wells-Treatments",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Local electric service",
+          "value": "ComEd is listed as the electric utility",
+          "scope": "City of DeKalb utility directory; the property address and tariff determine a household bill.",
+          "source": {
+            "label": "City of DeKalb: Utilities",
+            "url": "https://www.cityofdekalb.com/778/Utilities",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Contracted renewable projects",
+          "value": "300 MW across two Illinois projects",
+          "scope": "Meta’s November 2023 announcement; projects in DeWitt and Morgan counties. Contracted project capacity is not DeKalb campus demand.",
+          "source": {
+            "label": "Meta: DeKalb opening announcement",
+            "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+            "publishedAt": "2023-11-29",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Campus timeline",
+          "value": "Groundbreaking in 2020; serving traffic in November 2023",
+          "scope": "Meta DeKalb opening record; not a current construction schedule or noise reading.",
+          "source": {
+            "label": "Meta: DeKalb opening announcement",
+            "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+            "publishedAt": "2023-11-29",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · Construction materials",
+          "value": "Pilot testing of AI-assisted lower-carbon concrete",
+          "scope": "Meta reports a DeKalb pilot with the University of Illinois Urbana-Champaign; not a measured neighborhood environmental outcome.",
+          "source": {
+            "label": "Meta: DeKalb opening announcement",
+            "url": "https://datacenters.atmeta.com/2023/11/dekalb-we-are-online/",
+            "publishedAt": "2023-11-29",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · City contribution",
+          "value": "Meta contributed $2,424,022 in 2025",
+          "scope": "City-reported Meta property-tax contribution to the City of DeKalb; not an individual homeowner’s tax saving.",
+          "source": {
+            "label": "City of DeKalb: Meta Tax Impact",
+            "url": "https://www.cityofdekalb.com/1620/Meta-Tax-Impact",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · School contribution",
+          "value": "Meta contributed $18,549,744 in 2025",
+          "scope": "City-reported Meta property-tax contribution to DeKalb School District 428; separate from the city contribution.",
+          "source": {
+            "label": "City of DeKalb: Meta Tax Impact",
+            "url": "https://www.cityofdekalb.com/1620/Meta-Tax-Impact",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$204,700",
+          "scope": "DeKalb city, Illinois · 2020–2024 ACS five-year estimate; not current sale prices or a campus-caused change.",
+          "source": {
+            "label": "US Census Bureau: DeKalb city, Illinois QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/dekalbcityillinois/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$1,029",
+          "scope": "DeKalb city, Illinois · 2020–2024 ACS five-year estimate for renters; not a current listing quote.",
+          "source": {
+            "label": "US Census Bureau: DeKalb city, Illinois QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/dekalbcityillinois/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$1,692",
+          "scope": "DeKalb city, Illinois · 2020–2024 ACS median selected monthly owner costs; not a new mortgage-payment quote.",
+          "source": {
+            "label": "US Census Bureau: DeKalb city, Illinois QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/dekalbcityillinois/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "23.8 minutes",
+          "scope": "DeKalb city, Illinois · 2020–2024 ACS, workers age 16+; not commute time from a particular property.",
+          "source": {
+            "label": "US Census Bureau: DeKalb city, Illinois QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/dekalbcityillinois/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
           }
         }
       ]
@@ -60,7 +192,7 @@
       "kind": "area",
       "locationPrecision": "city",
       "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "lastCheckedAt": "2026-09-17",
       "summary": "Microsoft reports operating data centers in Bexar and Medina counties. This entry describes the Greater San Antonio area, not one building. Individual projects may have different construction stages.",
       "facts": [
         {
@@ -84,6 +216,127 @@
             "publishedAt": null,
             "lastCheckedAt": "2026-09-05"
           }
+        },
+        {
+          "label": "WATER · Regional supply",
+          "value": "Edwards Aquifer plus a diversified water-supply portfolio",
+          "scope": "SAWS service-system context; not every Microsoft site or home in Bexar and Medina counties has the same water supplier.",
+          "source": {
+            "label": "SAWS: Water Planning",
+            "url": "https://my.saws.org/water-planning/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Household bill structure",
+          "value": "Water and sewer charges, water-supply fees and other applicable fees",
+          "scope": "SAWS 2026 schedules use water-consumption tiers; the account’s service and usage determine the bill. Proposed future adjustments are not treated as approved.",
+          "source": {
+            "label": "SAWS: Water & Sewer Rates",
+            "url": "https://www.saws.org/service/water-sewer-rates/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Residential cost reference",
+          "value": "13.6¢/kWh projected average for September 2026",
+          "scope": "CPS Energy residential-customer projection; not a fixed tariff, a Microsoft price or a campus-caused increase.",
+          "source": {
+            "label": "CPS Energy: Understanding Your Bill",
+            "url": "https://www.cpsenergy.com/en/about-us/who-we-are/financial-information/fuel-charges.html",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Summer usage charge",
+          "value": "Peak-capacity charge applies above 600 kWh in June–September",
+          "scope": "CPS Energy residential base-rate description; fuel, regulatory and service charges also affect the bill.",
+          "source": {
+            "label": "CPS Energy: Understanding Your Bill",
+            "url": "https://www.cpsenergy.com/en/about-us/who-we-are/financial-information/fuel-charges.html",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Wiseman construction schedule",
+          "value": "Posted hours: weekdays 7 am–8 pm; Saturday 8 am–8 pm; Sunday 9 am–5 pm",
+          "scope": "Microsoft’s Wiseman Boulevard project page only. Its March 2026 completion estimate is past; completion and present work hours require a newer confirmation.",
+          "source": {
+            "label": "Microsoft: Wiseman Boulevard construction update",
+            "url": "https://local.microsoft.com/blog/wiseman-boulevard-datacenter-construction-update/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Construction dust",
+          "value": "Microsoft describes contractor dust-control measures",
+          "scope": "Wiseman Boulevard project; operator statement about mitigation, not independent air-quality measurements or a regionwide guarantee.",
+          "source": {
+            "label": "Microsoft: Wiseman Boulevard construction update",
+            "url": "https://local.microsoft.com/blog/wiseman-boulevard-datacenter-construction-update/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · City property-tax reference",
+          "value": "$0.541590 per $100 of taxable value",
+          "scope": "San Antonio FY 2026 adopted city rate; excludes other taxing entities and does not apply throughout the wider Microsoft area.",
+          "source": {
+            "label": "San Antonio: FY 2026 adopted budget, revenue detail",
+            "url": "https://www.sa.gov/files/assets/main/v/8/omb/documents/fy2026/adopted-budget.pdf",
+            "publishedAt": "2025",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$235,700",
+          "scope": "San Antonio city, Texas · 2020–2024 ACS five-year estimate; not current sale prices or a campus-caused change.",
+          "source": {
+            "label": "US Census Bureau: San Antonio city, Texas QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/sanantoniocitytexas/HSG860223",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$1,324",
+          "scope": "San Antonio city, Texas · 2020–2024 ACS five-year estimate for renters; not a current listing quote.",
+          "source": {
+            "label": "US Census Bureau: San Antonio city, Texas QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/sanantoniocitytexas/HSG860223",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$1,801",
+          "scope": "San Antonio city, Texas · 2020–2024 ACS median selected monthly owner costs; not a new mortgage-payment quote.",
+          "source": {
+            "label": "US Census Bureau: San Antonio city, Texas QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/sanantoniocitytexas/HSG860223",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "24.5 minutes",
+          "scope": "San Antonio city, Texas · 2020–2024 ACS, workers age 16+; not commute time from a particular property.",
+          "source": {
+            "label": "US Census Bureau: San Antonio city, Texas QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/sanantoniocitytexas/HSG860223",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
         }
       ]
     },
@@ -99,7 +352,7 @@
       "kind": "campus",
       "locationPrecision": "city",
       "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "lastCheckedAt": "2026-09-17",
       "summary": "CyrusOne identifies its PHX1–PHX8 campus in Chandler. Its listed IT capacity covers the campus and is not a measurement of current electricity consumption.",
       "facts": [
         {
@@ -110,7 +363,7 @@
             "label": "CyrusOne: Chandler campus",
             "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
           }
         },
         {
@@ -121,7 +374,7 @@
             "label": "CyrusOne: Chandler campus",
             "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
           }
         },
         {
@@ -132,7 +385,161 @@
             "label": "CyrusOne: Chandler campus",
             "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Local drinking-water sources",
+          "value": "Salt and Verde rivers, Colorado River and groundwater",
+          "scope": "Chandler municipal drinking-water portfolio; not a measured source mix for the PHX1–PHX8 campus.",
+          "source": {
+            "label": "City of Chandler: Water Supply",
+            "url": "https://www.chandleraz.gov/residents/water/water-conservation/water-supply",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Reclaimed-water network",
+          "value": "A separate reclaimed-water system serves irrigation and industrial uses",
+          "scope": "Chandler city system; this source does not establish a reclaimed-water connection at CyrusOne.",
+          "source": {
+            "label": "City of Chandler: Water Supply",
+            "url": "https://www.chandleraz.gov/residents/water/water-conservation/water-supply",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Cooling evidence conflict",
+          "value": "Operator page combines water-free cooling claims with evaporative / chilled-water specifications",
+          "scope": "PHX1–PHX8 page contains differing descriptions. Building-specific design and measured consumption remain unverified; zero campus water use is not established.",
+          "source": {
+            "label": "CyrusOne: Chandler campus",
+            "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Local electric providers",
+          "value": "SRP and APS serve parts of Chandler",
+          "scope": "City infrastructure directory; the address determines the electric service area and applicable tariff.",
+          "source": {
+            "label": "City of Chandler: Connectivity and Infrastructure",
+            "url": "https://www.chandleraz.gov/business/economic-development/why-choose-chandler/connectivity-infrastructure-and-market-access",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · Advertised scale",
+          "value": "Eight facilities with 2 million square feet of technical IT space",
+          "scope": "CyrusOne PHX1–PHX8 marketing specification; not the land footprint, occupied area or current electrical load.",
+          "source": {
+            "label": "CyrusOne: Chandler campus",
+            "url": "https://www.cyrusone.com/data-centers/north-america/chandler-arizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Noise studies",
+          "value": "City ordinance calls for a baseline sound study and five years of annual peak-operation studies",
+          "scope": "Chandler’s January 2023 ordinance announcement. Applicability to an existing PHX building requires permit review; this is not proof of compliance or a sound reading.",
+          "source": {
+            "label": "City of Chandler: Data center ordinance announcement",
+            "url": "https://www.chandleraz.gov/news-center/chandlers-data-center-ordinance-now-effect",
+            "publishedAt": "2023-01-11",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Backup generators",
+          "value": "Routine testing time limits and resident-notification procedures",
+          "scope": "Chandler’s data-center ordinance announcement, effective January 5, 2023; site-specific conditions must be checked in the permit.",
+          "source": {
+            "label": "City of Chandler: Data center ordinance announcement",
+            "url": "https://www.chandleraz.gov/news-center/chandlers-data-center-ordinance-now-effect",
+            "publishedAt": "2023-01-11",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · City property-tax rate",
+          "value": "$1.0759 per $100 of assessed value",
+          "scope": "Chandler FY 2026–27 adopted total city rate; excludes other taxing jurisdictions and is not a percentage of home sale price.",
+          "source": {
+            "label": "City of Chandler: FY 2026–27 budget adoption",
+            "url": "https://www.chandleraz.gov/news-center/chandler-city-council-approves-budget-and-capital-improvement-program-lowering-primary",
+            "publishedAt": "2026-06-26",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$507,800",
+          "scope": "Chandler city, Arizona · 2020–2024 ACS five-year estimate; not current sale prices or a campus-caused change.",
+          "source": {
+            "label": "US Census Bureau: Chandler city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/chandlercityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$1,902",
+          "scope": "Chandler city, Arizona · 2020–2024 ACS five-year estimate for renters; not a current listing quote.",
+          "source": {
+            "label": "US Census Bureau: Chandler city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/chandlercityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$2,044",
+          "scope": "Chandler city, Arizona · 2020–2024 ACS median selected monthly owner costs; not a new mortgage-payment quote.",
+          "source": {
+            "label": "US Census Bureau: Chandler city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/chandlercityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "23.9 minutes",
+          "scope": "Chandler city, Arizona · 2020–2024 ACS, workers age 16+; not commute time from a particular property.",
+          "source": {
+            "label": "US Census Bureau: Chandler city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/chandlercityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · Published address range",
+          "value": "2305–2705 South Ellis Street",
+          "scope": "Operator identifies this range for the eight-building Chandler campus; city marker remains approximate pending point verification.",
+          "source": {
+            "label": "CyrusOne: Chandler generator testing schedule",
+            "url": "https://www.cyrusone.com/chandler-backup-generator-schedule",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Routine generator runs",
+          "value": "Weekdays, 9 am–5 pm",
+          "scope": "Operator-posted routine no-load testing hours; separately listed August and September 2026 maintenance events had longer hours. Not a noise measurement.",
+          "source": {
+            "label": "CyrusOne: Chandler generator testing schedule",
+            "url": "https://www.cyrusone.com/chandler-backup-generator-schedule",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
           }
         }
       ],
@@ -144,13 +551,13 @@
       "company": "Apple",
       "city": "Mesa",
       "state": "AZ",
-      "lat": 33.42,
-      "lng": -111.83,
+      "lat": 33.34703822374255,
+      "lng": -111.60412364328474,
       "status": "operational",
       "kind": "campus",
-      "locationPrecision": "city",
-      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "locationPrecision": "site",
+      "locationNote": "City of Mesa planning GIS point for Apple at 3740 S Signal Butte Road; a representative site point, not a campus boundary or building entrance.",
+      "lastCheckedAt": "2026-09-17",
       "summary": "Apple’s 2026 report describes its operating Mesa data center and reports electricity use for 2025. The earlier 2027 construction forecast in this app was unsupported and has been withdrawn.",
       "facts": [
         {
@@ -174,8 +581,146 @@
             "publishedAt": "2026",
             "lastCheckedAt": "2026-09-05"
           }
+        },
+        {
+          "label": "WATER · City water portfolio",
+          "value": "Colorado River, Salt and Verde rivers, and groundwater",
+          "scope": "Mesa municipal supply description; not an Apple-specific water-use measurement.",
+          "source": {
+            "label": "City of Mesa: Water Reliability and Preparedness",
+            "url": "https://www.mesaaz.gov/Utilities/Water-Wastewater/Mesas-Water-Reliability-and-Preparedness",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Conservation status",
+          "value": "Stage 1 Water Watch with voluntary conservation",
+          "scope": "Mesa utility status posted when checked September 17, 2026; not a drought-severity measurement or a permanent condition.",
+          "source": {
+            "label": "City of Mesa: Water Reliability and Preparedness",
+            "url": "https://www.mesaaz.gov/Utilities/Water-Wastewater/Mesas-Water-Reliability-and-Preparedness",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Solar partnership",
+          "value": "50 MW Arizona solar project announced with SRP",
+          "scope": "Apple’s 2016 announcement supporting the Mesa data center; generation-project capacity is not the campus’s electricity demand or a residential rate.",
+          "source": {
+            "label": "Apple: Arizona solar project announcement",
+            "url": "https://www.apple.com/newsroom/2016/09/apple-joins-re100-announces-supplier-clean-energy-pledges/",
+            "publishedAt": "2016-09-19",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Large water customers",
+          "value": "Mesa describes water budgets and long-term storage credits for large users",
+          "scope": "City water-planning policy; no Apple-specific permit, compliance finding or water allocation is established here.",
+          "source": {
+            "label": "City of Mesa: Water Reliability and Preparedness",
+            "url": "https://www.mesaaz.gov/Utilities/Water-Wastewater/Mesas-Water-Reliability-and-Preparedness",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Regional watershed work",
+          "value": "Apple and SRP announced a ten-year project covering 30,000 forest acres",
+          "scope": "April 2024 watershed-restoration announcement in Arizona; regional work, not habitat acreage at the Mesa campus or a neighborhood noise measure.",
+          "source": {
+            "label": "Apple: Clean energy and water investments",
+            "url": "https://www.apple.com/newsroom/2024/04/apple-ramps-up-investment-in-clean-energy-and-water-around-the-world/",
+            "publishedAt": "2024-04-17",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · City property-tax structure",
+          "value": "No primary city property tax; a secondary city property tax funds bond debt",
+          "scope": "Mesa city taxes only. County, school and other applicable levies can still appear on a home’s bill.",
+          "source": {
+            "label": "City of Mesa: Property Tax",
+            "url": "https://www.mesaaz.gov/Resident-Resources/Property-Tax",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · Eastmark and Cadence districts",
+          "value": "Community Facility District taxes and special assessments may add to a property’s costs",
+          "scope": "Mesa’s district information; applies to parcels in the relevant district, not every Mesa home. Check the parcel’s district and assessment.",
+          "source": {
+            "label": "City of Mesa: Community Facility Districts",
+            "url": "https://www.mesaaz.gov/Resident-Resources/Property-Tax/Community-Facility-Districts",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$408,000",
+          "scope": "Mesa city, Arizona · 2020–2024 ACS five-year estimate; not current sale prices or a campus-caused change.",
+          "source": {
+            "label": "US Census Bureau: Mesa city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/mesacityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$1,620",
+          "scope": "Mesa city, Arizona · 2020–2024 ACS five-year estimate for renters; not a current listing quote.",
+          "source": {
+            "label": "US Census Bureau: Mesa city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/mesacityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$1,843",
+          "scope": "Mesa city, Arizona · 2020–2024 ACS median selected monthly owner costs; not a new mortgage-payment quote.",
+          "source": {
+            "label": "US Census Bureau: Mesa city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/mesacityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "24.7 minutes",
+          "scope": "Mesa city, Arizona · 2020–2024 ACS, workers age 16+; not commute time from a particular property.",
+          "source": {
+            "label": "US Census Bureau: Mesa city, Arizona QuickFacts",
+            "url": "https://www.census.gov/quickfacts/mesacityarizona",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · City location record",
+          "value": "3740 S Signal Butte Road",
+          "scope": "Mesa planning GIS, case Z11-012, construction complete; point is not a parcel boundary.",
+          "source": {
+            "label": "City of Mesa: Apple data-center GIS record",
+            "url": "https://maps.mesaaz.gov/server/rest/services/Planning/Data_Centers/MapServer/1/query?objectIds=9&outFields=*&outSR=4326&f=json",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
         }
-      ]
+      ],
+      "locationSource": {
+        "label": "City of Mesa: Apple data-center GIS record",
+        "url": "https://maps.mesaaz.gov/server/rest/services/Planning/Data_Centers/MapServer/1/query?objectIds=9&outFields=*&outSR=4326&f=json",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
     },
     {
       "id": 15,
@@ -189,7 +734,7 @@
       "kind": "campus",
       "locationPrecision": "city",
       "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "lastCheckedAt": "2026-09-17",
       "summary": "Google identifies its established Council Bluffs data centers and describes further expansion. This entry covers the Council Bluffs location; Iowa-wide investment figures are not attributed to this campus.",
       "facts": [
         {
@@ -200,7 +745,7 @@
             "label": "Google: Iowa data centers",
             "url": "https://datacenters.google/locations/iowa/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
           }
         },
         {
@@ -211,7 +756,128 @@
             "label": "Google: Iowa data centers",
             "url": "https://datacenters.google/locations/iowa/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · City drinking-water supply",
+          "value": "Missouri River, with Missouri River alluvial wells as a secondary source",
+          "scope": "Council Bluffs Water Works system description; not Google’s campus water consumption or a verified campus connection.",
+          "source": {
+            "label": "Council Bluffs Water Works: System Operations",
+            "url": "https://www.cbwaterworks.com/about/general-information/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Retail volume-charge reference",
+          "value": "$4.45/CCF inside the city; $6.67/CCF outside",
+          "scope": "Posted first tier: first 1,500 cubic feet monthly or 3,000 bimonthly. One CCF is 748 gallons. Meter-based minimums with usage allowances also apply; these are not full bills.",
+          "source": {
+            "label": "Council Bluffs Water Works: Rate Schedule",
+            "url": "https://www.cbwaterworks.com/customer-service/customer/rate-schedule/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Electric provider",
+          "value": "MidAmerican Energy lists Council Bluffs for electric service",
+          "scope": "Utility service-territory directory; confirm service and tariff for the home’s address.",
+          "source": {
+            "label": "MidAmerican Energy: Communities Served",
+            "url": "https://www.midamericanenergy.com/territory-communitylist",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Seasonal pricing",
+          "value": "Residential electric pricing varies between summer and winter",
+          "scope": "MidAmerican rate guidance; Iowa gas proposals and Illinois electric proposals are not Council Bluffs electric-rate changes.",
+          "source": {
+            "label": "MidAmerican Energy: Rates and Tariffs",
+            "url": "https://www.midamericanenergy.com/rates-tariffs",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Expansion announcements",
+          "value": "Google lists Council Bluffs expansion announcements in 2024 and 2025",
+          "scope": "Google’s Iowa record; Cedar Rapids is a separate location. Statewide investment totals are not assigned to this campus.",
+          "source": {
+            "label": "Google: Iowa data centers",
+            "url": "https://datacenters.google/locations/iowa/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Watershed investment",
+          "value": "$1.3 million announced for 47 grade-stabilization sites",
+          "scope": "Google’s Iowa water-stewardship record; watershed conservation funding, not measured campus water savings or home-price impact.",
+          "source": {
+            "label": "Google: Iowa data centers",
+            "url": "https://datacenters.google/locations/iowa/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · Historical city levy",
+          "value": "$17.69276 per $1,000 of taxable value",
+          "scope": "Council Bluffs certified FY 2026 city levy, retained as a dated reference. Excludes county and school levies; the page labels FY 2027’s figure proposed, not certified.",
+          "source": {
+            "label": "City of Council Bluffs: Property Tax Levy",
+            "url": "https://www.councilbluffs-ia.gov/2556/Property-Tax-Levy",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$171,800",
+          "scope": "Council Bluffs city, Iowa · 2020–2024 ACS five-year estimate; not current sale prices or a campus-caused change.",
+          "source": {
+            "label": "US Census Bureau: Council Bluffs city, Iowa QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/councilbluffscityiowa/BZA115222",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$1,030",
+          "scope": "Council Bluffs city, Iowa · 2020–2024 ACS five-year estimate for renters; not a current listing quote.",
+          "source": {
+            "label": "US Census Bureau: Council Bluffs city, Iowa QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/councilbluffscityiowa/BZA115222",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$1,420",
+          "scope": "Council Bluffs city, Iowa · 2020–2024 ACS median selected monthly owner costs; not a new mortgage-payment quote.",
+          "source": {
+            "label": "US Census Bureau: Council Bluffs city, Iowa QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/councilbluffscityiowa/BZA115222",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "17.9 minutes",
+          "scope": "Council Bluffs city, Iowa · 2020–2024 ACS, workers age 16+; not commute time from a particular property.",
+          "source": {
+            "label": "US Census Bureau: Council Bluffs city, Iowa QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/councilbluffscityiowa/BZA115222",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
           }
         }
       ]
@@ -222,13 +888,13 @@
       "company": "Meta",
       "city": "New Albany",
       "state": "OH",
-      "lat": 40.08,
-      "lng": -82.81,
+      "lat": 40.06520121358428,
+      "lng": -82.7531677992497,
       "status": "operational",
       "kind": "campus",
-      "locationPrecision": "city",
-      "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "locationPrecision": "site",
+      "locationNote": "City GIS address point for 1500 Beech Road, New Albany, OH. Not a campus boundary, entrance direction or home-specific exposure measurement.",
+      "lastCheckedAt": "2026-09-16",
       "summary": "Meta operates a large, multi-building campus south of SR-161. Official records document a 600+ acre site, active city-listed building projects, regional-grid power, city utility context, and a July 2026 noise issue under mitigation. Housing and tax figures below describe New Albany and must be checked against a specific address.",
       "facts": [
         {
@@ -261,18 +927,18 @@
             "label": "City of New Albany: Our Community",
             "url": "https://datacenters.newalbanyohio.org/our-community/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
           "label": "DEVELOPMENT · Current building records",
-          "value": "City-listed Meta buildings range from 13,243 to 302,944 square feet",
-          "scope": "Individual Meta-labeled commercial projects on the City's monthly project page; this is a range, not a total campus area",
+          "value": "Meta LCO 2: 302,944 square feet at 1500 Beech Road",
+          "scope": "One city-listed building project at the original Beech Road campus; not total campus floor area or a verified completion date.",
           "source": {
             "label": "City of New Albany: Project Updates",
             "url": "https://newalbanyohio.org/community-development/project-updates/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -283,7 +949,7 @@
             "label": "City of New Albany: Neighbor Noise Update",
             "url": "https://datacenters.newalbanyohio.org/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -294,7 +960,7 @@
             "label": "City of New Albany: Neighbor Noise Update",
             "url": "https://datacenters.newalbanyohio.org/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -305,7 +971,7 @@
             "label": "City of New Albany: Our Community",
             "url": "https://datacenters.newalbanyohio.org/our-community/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -316,7 +982,7 @@
             "label": "City of New Albany: Data Center FAQs",
             "url": "https://datacenters.newalbanyohio.org/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -338,7 +1004,7 @@
             "label": "City of New Albany: Our Community",
             "url": "https://datacenters.newalbanyohio.org/our-community/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -349,7 +1015,7 @@
             "label": "U.S. Census Bureau: New Albany QuickFacts",
             "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -360,7 +1026,7 @@
             "label": "U.S. Census Bureau: New Albany QuickFacts",
             "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -371,7 +1037,7 @@
             "label": "U.S. Census Bureau: New Albany QuickFacts",
             "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-05"
+            "lastCheckedAt": "2026-09-16"
           }
         },
         {
@@ -417,8 +1083,36 @@
             "publishedAt": null,
             "lastCheckedAt": "2026-09-05"
           }
+        },
+        {
+          "label": "CAMPUS · Listed project address",
+          "value": "1500 Beech Road, New Albany, OH",
+          "scope": "City project listing identifies this address; the map uses a separately checked City GIS address point.",
+          "source": {
+            "label": "City of New Albany: Project Updates",
+            "url": "https://newalbanyohio.org/community-development/project-updates/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Commute context",
+          "value": "22.1 minutes mean travel time to work",
+          "scope": "New Albany city workers age 16+, 2020–2024 Census estimate; not a route-specific commute or data-center traffic effect.",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
         }
-      ]
+      ],
+      "locationSource": {
+        "label": "City of New Albany GIS: 1500 Beech Road, New Albany, OH",
+        "url": "https://webgis.newalbanyohio.org/arcgis/rest/services/BaseMapData/GeneralLayers/MapServer/0/query?objectIds=1820894&outFields=OBJECTID%2CADDR_NUM%2CSTR_NAME%2CSTR_TYPE%2CSTATUS%2CPID&outSR=4326&f=pjson",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-16"
+      }
     },
     {
       "id": 17,
@@ -432,7 +1126,7 @@
       "kind": "area",
       "locationPrecision": "city",
       "locationNote": "Approximate city marker; not a verified campus boundary or street address.",
-      "lastCheckedAt": "2026-09-05",
+      "lastCheckedAt": "2026-09-17",
       "summary": "Microsoft reports operating data centers in Quincy. This entry covers the Quincy area, not one building. Development in Malaga and East Wenatchee is outside this entry’s scope.",
       "facts": [
         {
@@ -456,6 +1150,608 @@
             "publishedAt": null,
             "lastCheckedAt": "2026-09-05"
           }
+        },
+        {
+          "label": "WATER · Municipal drinking water",
+          "value": "Groundwater supplies the city’s potable-water system",
+          "scope": "Quincy supply context in EPA’s case study; distinct from recycled industrial cooling water.",
+          "source": {
+            "label": "US EPA: Quincy water reuse case study",
+            "url": "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+            "publishedAt": "2026-07-06",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Industrial reuse",
+          "value": "Quincy Water Reuse Utility recirculates Microsoft cooling water",
+          "scope": "Operating since June 2021; EPA identifies one connected Microsoft campus as of 2022, not every site in this area overview. Make-up water is still needed.",
+          "source": {
+            "label": "US EPA: Quincy water reuse case study",
+            "url": "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+            "publishedAt": "2026-07-06",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Estimated demand offset",
+          "value": "138 million gallons per year",
+          "scope": "EPA case-study estimate for the reuse system; not current annual campus consumption, a daily-use measurement or zero water use.",
+          "source": {
+            "label": "US EPA: Quincy water reuse case study",
+            "url": "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+            "publishedAt": "2026-07-06",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Residential cost reference",
+          "value": "6.4¢/kWh all-in residential reference for 2026",
+          "scope": "Grant PUD’s August 2026 FAQ; not a flat energy tariff or a quote for a particular home.",
+          "source": {
+            "label": "Grant PUD: Data Center FAQs",
+            "url": "https://www.grantpud.org/blog/data-center-faqs",
+            "publishedAt": "2026-08-28",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · County data-center load",
+          "value": "About 37% of county load: 280 of 757 average MW in 2025",
+          "scope": "Grant PUD total for eight data-center operators; not Microsoft alone, peak demand or a share of generation capacity.",
+          "source": {
+            "label": "Grant PUD: Data Center FAQs",
+            "url": "https://www.grantpud.org/blog/data-center-faqs",
+            "publishedAt": "2026-08-28",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Growth costs",
+          "value": "Large users are expected to fund added resources and infrastructure for their growth",
+          "scope": "Grant PUD’s published policy explanation; does not promise that residential rates can never change.",
+          "source": {
+            "label": "Grant PUD: Data Center FAQs",
+            "url": "https://www.grantpud.org/blog/data-center-faqs",
+            "publishedAt": "2026-08-28",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · One documented parcel",
+          "value": "47.07 acres at 501 Port Industrial Parkway",
+          "scope": "Grant County parcel 313675000, Microsoft ownership record, 2025 appraisal selection; one parcel, not all Microsoft land or developed acreage. Area marker remains approximate.",
+          "source": {
+            "label": "Grant County Assessor: Microsoft parcel 313675000",
+            "url": "https://propertysearch.grantcountywa.gov/PropertyAccess/Property.aspx?cid=10&prop_id=72702&year=2025",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "INFRASTRUCTURE · Reuse project cost",
+          "value": "$31 million overall project cost",
+          "scope": "EPA historical Quincy Water Reuse Utility case study; not a household tax charge or a current construction budget.",
+          "source": {
+            "label": "US EPA: Quincy water reuse case study",
+            "url": "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+            "publishedAt": "2026-07-06",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · Parcel-specific levies",
+          "value": "2026 certified total levy rates are listed by taxing-code area",
+          "scope": "Grant County’s tax-year tables combine applicable district levies per $1,000 assessed value. A Quincy city median cannot identify a home’s taxing area.",
+          "source": {
+            "label": "Grant County: Certified County Levies",
+            "url": "https://www.grantcountywa.gov/254/County-Levies",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$336,800",
+          "scope": "Quincy city, Washington · 2020–2024 ACS five-year estimate; not current sale prices or a campus-caused change.",
+          "source": {
+            "label": "US Census Bureau: Quincy city, Washington QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/quincycitywashington/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$1,161",
+          "scope": "Quincy city, Washington · 2020–2024 ACS five-year estimate for renters; not a current listing quote.",
+          "source": {
+            "label": "US Census Bureau: Quincy city, Washington QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/quincycitywashington/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$1,694",
+          "scope": "Quincy city, Washington · 2020–2024 ACS median selected monthly owner costs; not a new mortgage-payment quote.",
+          "source": {
+            "label": "US Census Bureau: Quincy city, Washington QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/quincycitywashington/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "17.9 minutes",
+          "scope": "Quincy city, Washington · 2020–2024 ACS, workers age 16+; not commute time from a particular property.",
+          "source": {
+            "label": "US Census Bureau: Quincy city, Washington QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/quincycitywashington/PST045225",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Google New Albany Data Center",
+      "company": "Google",
+      "city": "New Albany",
+      "state": "OH",
+      "status": "operational",
+      "kind": "campus",
+      "summary": "The City identifies an active Google campus in New Albany and lists projects at 1101 Beech Road. City updates describe cooling-fan noise mitigation with a permanent solution targeted for December 2026. Housing and utility facts describe the city, not measured effects at a particular home.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Google New Albany Data Center",
+          "scope": "Active Google campus identified in the City’s neighbor noise update.",
+          "source": {
+            "label": "City of New Albany: Neighbor Noise Update",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operational",
+          "scope": "The City describes an active campus; individual building projects can have separate construction stages.",
+          "source": {
+            "label": "City of New Albany: Neighbor Noise Update",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Listed building project",
+          "value": "Google 7: 170,594 square feet at 1101 Beech Road",
+          "scope": "One city-listed project; not total campus area or confirmation that construction is complete.",
+          "source": {
+            "label": "City of New Albany: Project Updates",
+            "url": "https://newalbanyohio.org/community-development/project-updates/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Noise update",
+          "value": "Cooling-fan complaints reported in September 2025; permanent solution targeted for December 2026",
+          "scope": "The City’s lead noise update for Google. Its older FAQ still mentions June 2026; the target is not proof of completion or a home-specific noise reading.",
+          "source": {
+            "label": "City of New Albany: Neighbor Noise Update",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "QUALITY OF LIFE · Interim response",
+          "value": "Sound monitoring, operating changes and sound-dampening materials",
+          "scope": "City-reported Google mitigation measures; effectiveness at an individual home is not established.",
+          "source": {
+            "label": "City of New Albany: Neighbor Noise Update",
+            "url": "https://datacenters.newalbanyohio.org/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Area utilities",
+          "value": "The City lists AEP and The Energy Cooperative as utilities investing in the business park",
+          "scope": "Business-park context; does not identify the provider or tariff serving a particular home or measure Google’s demand.",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "WATER · Utility system",
+          "value": "Water and sewer are provided by the City of Columbus under contract",
+          "scope": "New Albany businesses; citywide utility arrangement, not campus-specific consumption",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Home value",
+          "value": "$772,100 median owner-occupied home value",
+          "scope": "New Albany city, 2020–2024 Census estimate; area context, not a data-center-caused change or current listing price",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Rent",
+          "value": "$2,355 median monthly gross rent",
+          "scope": "New Albany city, 2020–2024 Census estimate; gross rent includes contract rent plus applicable utilities and fuels",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Owner costs",
+          "value": "$3,737 median monthly owner cost with a mortgage",
+          "scope": "New Albany city, 2020–2024 Census estimate; includes selected ownership costs and is not a payment quote",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Commute context",
+          "value": "22.1 minutes mean travel time to work",
+          "scope": "New Albany city workers age 16+, 2020–2024 Census estimate; not a route-specific commute or data-center traffic effect.",
+          "source": {
+            "label": "U.S. Census Bureau: New Albany QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/newalbanycityohio/BPS030224",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "CAMPUS · Listed project address",
+          "value": "1101 Beech Road, New Albany, OH",
+          "scope": "City project listing identifies this address; the map uses a separately checked City GIS address point.",
+          "source": {
+            "label": "City of New Albany: Project Updates",
+            "url": "https://newalbanyohio.org/community-development/project-updates/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          }
+        },
+        {
+          "label": "TAXES · Household property-tax reference",
+          "value": "$2,421.88 annually per $100,000 of fair market value for 2025",
+          "scope": "Tax District 222 only: City of New Albany, Franklin County, New Albany-Plain schools, and Plain Township Fire; verify the exact parcel district",
+          "source": {
+            "label": "City of New Albany: Taxes",
+            "url": "https://newalbanyohio.org/community-resources/taxes/",
+            "publishedAt": "2025-03-24",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "TAXES · Municipal income tax",
+          "value": "2.0% on earned income, with a 100% credit up to 2.0% for tax paid to another municipality",
+          "scope": "City of New Albany residents; jurisdiction can differ even with a New Albany mailing address",
+          "source": {
+            "label": "City of New Albany: Taxes",
+            "url": "https://newalbanyohio.org/community-resources/taxes/",
+            "publishedAt": "2025-03-24",
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "PUBLIC FINANCE · Data-center revenue",
+          "value": "Approximately $10 million in community development charges for tax year 2024",
+          "scope": "All New Albany data-center projects combined; the City does not attribute this total to Google alone",
+          "source": {
+            "label": "City of New Albany: City Finances",
+            "url": "https://datacenters.newalbanyohio.org/city-finances/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        },
+        {
+          "label": "PUBLIC FINANCE · Incentive oversight",
+          "value": "Real-property abatements are reviewed annually by the Tax Incentive Review Council",
+          "scope": "Citywide CRA abatements; specific agreement terms and parcel taxes must be checked separately",
+          "source": {
+            "label": "City of New Albany: City Finances",
+            "url": "https://datacenters.newalbanyohio.org/city-finances/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-05"
+          }
+        }
+      ],
+      "lat": 40.06032497019827,
+      "lng": -82.75568018131283,
+      "locationPrecision": "site",
+      "lastCheckedAt": "2026-09-16",
+      "locationNote": "City GIS address point for 1101 Beech Road, New Albany, OH. One of several address points for this multi-building campus. Not a campus boundary, entrance direction or home-specific exposure measurement.",
+      "locationSource": {
+        "label": "City of New Albany GIS: 1101 Beech Road, New Albany, OH",
+        "url": "https://webgis.newalbanyohio.org/arcgis/rest/services/BaseMapData/GeneralLayers/MapServer/0/query?objectIds=1820162&outFields=OBJECTID%2CADDR_NUM%2CSTR_NAME%2CSTR_TYPE%2CSTATUS%2CPID&outSR=4326&f=pjson",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-16"
+      }
+    },
+    {
+      "id": 20,
+      "name": "QTS Ashburn 3 campus",
+      "company": "QTS",
+      "city": "Ashburn",
+      "state": "VA",
+      "lat": 39.001097835952,
+      "lng": -77.475464103683,
+      "status": "operational",
+      "kind": "campus",
+      "locationPrecision": "site",
+      "locationNote": "Street-interpolated Census point for QTS’s published DC1 address, 22291 Shellhorn Road. Not a verified building entrance or campus boundary.",
+      "locationSource": {
+        "label": "US Census Geocoder: QTS published street address",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=22291+Shellhorn+Rd+Ashburn+VA&benchmark=Public_AR_Current&format=json",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      },
+      "lastCheckedAt": "2026-09-17",
+      "summary": "QTS identifies two buildings at its Ashburn 3 campus. Local housing and tax figures describe the surrounding area; campus capacity is not measured electricity use.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "QTS Ashburn 3 campus",
+          "scope": "QTS campus ASH3, distinct from other QTS Ashburn campuses.",
+          "source": {
+            "label": "QTS: Ashburn 3 campus",
+            "url": "https://q.com/data-centers/ashburn-3/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operating colocation campus",
+          "scope": "Operator facility page and ASH3 DC1 connectivity sheet; not a claim that all advertised capacity is occupied.",
+          "source": {
+            "label": "QTS: Ashburn 3 campus",
+            "url": "https://q.com/data-centers/ashburn-3/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · Operator address",
+          "value": "22291 and 22271 Shellhorn Road",
+          "scope": "QTS lists ASH3 DC1 and DC2 respectively; map point uses DC1’s geocoded street address.",
+          "source": {
+            "label": "QTS: Ashburn 3 campus",
+            "url": "https://q.com/data-centers/ashburn-3/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "CAMPUS · Campus footprint",
+          "value": "25 acres",
+          "scope": "QTS-advertised campus footprint, not building floor area or habitat loss.",
+          "source": {
+            "label": "QTS: Ashburn 3 campus",
+            "url": "https://q.com/data-centers/ashburn-3/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Advertised capacity",
+          "value": "80 MW+ critical campus capacity",
+          "scope": "QTS specification; not electricity consumed, household costs or actual current demand.",
+          "source": {
+            "label": "QTS: Ashburn 3 campus",
+            "url": "https://q.com/data-centers/ashburn-3/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Regional reuse network",
+          "value": "Over 750 million gallons of reclaimed water delivered in 2025",
+          "scope": "Loudoun Water program total for all customers; not QTS consumption or proof this campus has a reuse connection.",
+          "source": {
+            "label": "Loudoun Water: Reclaimed Water Program",
+            "url": "https://www.loudounwater.org/commercial-customers/reclaimed-water-program",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · County real-property rate",
+          "value": "$0.805 per $100 of assessed value",
+          "scope": "Loudoun County 2026 regular real-property rate; applicable special districts can add levies.",
+          "source": {
+            "label": "Loudoun County: 2026 property-tax rates",
+            "url": "https://www.loudoun.gov/taxrates",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · Additional district levies",
+          "value": "Rail districts: $0.20; Route 28 district: $0.105 per $100 assessed value",
+          "scope": "County 2026 schedule; applies only to eligible property in each taxing district, not all Ashburn homes.",
+          "source": {
+            "label": "Loudoun County: 2026 property-tax rates",
+            "url": "https://www.loudoun.gov/taxrates",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$699,300",
+          "scope": "Ashburn CDP, Virginia · 2020–2024 ACS; not a home quote or measured campus effect.",
+          "source": {
+            "label": "US Census Bureau: Ashburn CDP QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/ashburncdpvirginia/HSG860223",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$2,455",
+          "scope": "Ashburn CDP, Virginia · 2020–2024 ACS; not a current rental listing.",
+          "source": {
+            "label": "US Census Bureau: Ashburn CDP QuickFacts",
+            "url": "https://www.census.gov/quickfacts/fact/table/ashburncdpvirginia/HSG860223",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Google The Dalles — area overview",
+      "company": "Google",
+      "city": "The Dalles",
+      "state": "OR",
+      "lat": 45.6,
+      "lng": -121.18,
+      "status": "operational",
+      "kind": "area",
+      "locationPrecision": "city",
+      "locationNote": "Approximate city marker for The Dalles; not an individual data-center building, address or campus boundary.",
+      "lastCheckedAt": "2026-09-17",
+      "summary": "Google has operated data centers in The Dalles since 2006. This area overview adds local housing, residential electricity prices and the reported municipal water-storage project.",
+      "facts": [
+        {
+          "label": "Identity and operator",
+          "value": "Google The Dalles — area overview",
+          "scope": "Google identifies several data-center buildings in The Dalles; this record does not combine them into a verified single parcel.",
+          "source": {
+            "label": "Google: The Dalles data centers",
+            "url": "https://www.datacenters.google/locations/oregon/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "Reported status",
+          "value": "Operating data centers since 2006",
+          "scope": "Google’s local history; current campus-wide buildout is not established by an opening date.",
+          "source": {
+            "label": "Google: The Dalles data centers",
+            "url": "https://www.datacenters.google/locations/oregon/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "DEVELOPMENT · Local history",
+          "value": "Fourth data-center construction began in 2015",
+          "scope": "Google’s milestone record; historical context, not a current construction schedule.",
+          "source": {
+            "label": "Google: The Dalles data centers",
+            "url": "https://www.datacenters.google/locations/oregon/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Aquifer storage project",
+          "value": "Completed system transferred to the City in October 2025",
+          "scope": "Google announcement of the municipal storage-and-recovery project and groundwater rights transfer; not campus daily consumption.",
+          "source": {
+            "label": "Google: The Dalles aquifer-storage project",
+            "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/the-dalles-oregon-water/",
+            "publishedAt": "2025-10-22",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "WATER · Reported storage benefit",
+          "value": "Over 100 million additional gallons annually",
+          "scope": "Operator-reported community benefit from seasonal storage; not measured water savings at a home or proof of zero campus water impact.",
+          "source": {
+            "label": "Google: The Dalles aquifer-storage project",
+            "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/the-dalles-oregon-water/",
+            "publishedAt": "2025-10-22",
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "POWER & BILLS · Residential rate reference",
+          "value": "$28 monthly facilities charge plus $0.06292/kWh",
+          "scope": "Northern Wasco County PUD’s posted July 2026 schedule for most residential customers; other terms apply above 50 kW peak demand. Confirm the property’s utility.",
+          "source": {
+            "label": "Northern Wasco County PUD: Residential rates",
+            "url": "https://www.nwascopud.org/residential/residential-rates/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median owner-occupied home value",
+          "value": "$360,800",
+          "scope": "The Dalles city, Oregon · 2020–2024 ACS five-year estimate; city context, not an individual home quote or Google-caused effect.",
+          "source": {
+            "label": "US Census Bureau: The Dalles city QuickFacts",
+            "url": "https://www.census.gov/quickfacts/thedallescityoregon",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Median monthly gross rent",
+          "value": "$993",
+          "scope": "The Dalles city, Oregon · 2020–2024 ACS five-year estimate; city context, not an individual home quote or Google-caused effect.",
+          "source": {
+            "label": "US Census Bureau: The Dalles city QuickFacts",
+            "url": "https://www.census.gov/quickfacts/thedallescityoregon",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Monthly owner costs with a mortgage",
+          "value": "$1,709",
+          "scope": "The Dalles city, Oregon · 2020–2024 ACS five-year estimate; city context, not an individual home quote or Google-caused effect.",
+          "source": {
+            "label": "US Census Bureau: The Dalles city QuickFacts",
+            "url": "https://www.census.gov/quickfacts/thedallescityoregon",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "COST OF LIVING · Mean commute",
+          "value": "16.5 minutes",
+          "scope": "The Dalles city, Oregon · 2020–2024 ACS five-year estimate; city context, not an individual home quote or Google-caused effect.",
+          "source": {
+            "label": "US Census Bureau: The Dalles city QuickFacts",
+            "url": "https://www.census.gov/quickfacts/thedallescityoregon",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          }
         }
       ]
     }
@@ -475,8 +1771,20 @@
           },
           "period": "2025",
           "scope": "Apple Mesa data center; operator-reported annual electricity use"
+        },
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "City of Mesa: Water Reliability and Preparedness",
+            "url": "https://www.mesaaz.gov/Utilities/Water-Wastewater/Mesas-Water-Reliability-and-Preparedness",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          },
+          "period": "Utility description checked 2026-09-17",
+          "scope": "Mesa municipal supply portfolio; Apple-specific water supply and use not verified"
         }
-      }
+      },
+      "waterSource": "Mixed"
     },
     "16": {
       "waterSource": "Municipal",
@@ -493,6 +1801,102 @@
           "scope": "New Albany businesses receive water and sewer from Columbus under contract; no Meta-specific daily-use figure is stated"
         }
       }
+    },
+    "19": {
+      "waterSource": "Municipal",
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "City of New Albany: Our Community",
+            "url": "https://datacenters.newalbanyohio.org/our-community/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-16"
+          },
+          "period": "City utility arrangement; checked 2026-09-16",
+          "scope": "New Albany businesses receive water and sewer from Columbus under contract; no Google-specific daily-use figure is stated"
+        }
+      }
+    },
+    "4": {
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "City of DeKalb: Wells & Treatments",
+            "url": "https://www.cityofdekalb.com/382/Wells-Treatments",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          },
+          "period": "Utility description checked 2026-09-17",
+          "scope": "DeKalb city drinking-water supply; campus supply and daily consumption not verified"
+        }
+      },
+      "waterSource": "Aquifer"
+    },
+    "5": {
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "SAWS: Water Planning",
+            "url": "https://my.saws.org/water-planning/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          },
+          "period": "Utility description checked 2026-09-17",
+          "scope": "SAWS regional supply portfolio; not a source assignment to all Microsoft sites in Bexar and Medina counties"
+        }
+      },
+      "waterSource": "Mixed"
+    },
+    "7": {
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "City of Chandler: Water Supply",
+            "url": "https://www.chandleraz.gov/residents/water/water-conservation/water-supply",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          },
+          "period": "Utility description checked 2026-09-17",
+          "scope": "Chandler municipal drinking-water portfolio; CyrusOne campus connection and consumption not verified"
+        }
+      },
+      "waterSource": "Mixed"
+    },
+    "15": {
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "Council Bluffs Water Works: System Operations",
+            "url": "https://www.cbwaterworks.com/about/general-information/",
+            "publishedAt": null,
+            "lastCheckedAt": "2026-09-17"
+          },
+          "period": "Utility description checked 2026-09-17",
+          "scope": "Council Bluffs municipal river and alluvial-well supply; Google campus connection and consumption not verified"
+        }
+      },
+      "waterSource": "Mixed"
+    },
+    "17": {
+      "metricEvidence": {
+        "waterSource": {
+          "status": "reported",
+          "source": {
+            "label": "US EPA: Quincy water reuse case study",
+            "url": "https://www.epa.gov/waterreuse/water-reuse-case-study-quincy-washington",
+            "publishedAt": "2026-07-06",
+            "lastCheckedAt": "2026-09-17"
+          },
+          "period": "EPA case study updated July 2026; connection status stated as of 2022",
+          "scope": "EPA case study: recycled cooling water with make-up sources at the connected Microsoft campus; not all Quincy sites"
+        }
+      },
+      "waterSource": "Mixed"
     }
   },
   "alerts": [
@@ -554,6 +1958,21 @@
         "url": "https://newalbanyohio.org/news/2026/01/statement-regarding-metas-nuclear-energy-projects/",
         "publishedAt": "2026-01-15",
         "lastCheckedAt": "2026-09-05"
+      }
+    },
+    {
+      "id": 105,
+      "dcId": 19,
+      "title": "Google noise mitigation target",
+      "description": "The City’s lead update lists December 2026 as the target for a permanent cooling-fan noise solution. This is a reported plan, not confirmed completion. Older FAQ text on the same page still refers to June 2026.",
+      "date": "2026-09-16",
+      "type": "report",
+      "impact": "medium",
+      "source": {
+        "label": "City of New Albany: Neighbor Noise Update",
+        "url": "https://datacenters.newalbanyohio.org/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-16"
       }
     }
   ],
@@ -826,6 +2245,175 @@
       "kind": "withdrawal",
       "title": "Catalog entry withdrawn",
       "description": "The legacy record does not identify a specific operator, address or permit. Its dimensions, status and map pin could not be tied to a unique campus. Withdrawn pending identity research; this does not imply there are no data centers here."
+    },
+    {
+      "id": "new-albany-20260916-16",
+      "dcId": 16,
+      "publishedAt": "2026-09-16",
+      "kind": "update",
+      "title": "New Albany location and buying context reviewed",
+      "description": "Checked city address-point evidence and local project records; added scoped buying context. Map points do not represent campus boundaries.",
+      "source": {
+        "label": "City of New Albany: Project Updates",
+        "url": "https://newalbanyohio.org/community-development/project-updates/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-16"
+      }
+    },
+    {
+      "id": "new-albany-20260916-19",
+      "dcId": 19,
+      "publishedAt": "2026-09-16",
+      "kind": "update",
+      "title": "New Albany location and buying context reviewed",
+      "description": "Checked city address-point evidence and local project records; added scoped buying context. Map points do not represent campus boundaries.",
+      "source": {
+        "label": "City of New Albany: Project Updates",
+        "url": "https://newalbanyohio.org/community-development/project-updates/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-16"
+      }
+    },
+    {
+      "id": "local-context-20260917-4",
+      "dcId": 4,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "DeKalb buying context added",
+      "description": "Added sourced water, electricity, development, housing and tax context, with geographic scope and reporting periods. City context is not a measured campus effect.",
+      "source": {
+        "label": "US Census Bureau: DeKalb city, Illinois QuickFacts",
+        "url": "https://www.census.gov/quickfacts/fact/table/dekalbcityillinois/PST045225",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "local-context-20260917-5",
+      "dcId": 5,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "San Antonio buying context added",
+      "description": "Added sourced water, electricity, development, housing and tax context, with geographic scope and reporting periods. City context is not a measured campus effect.",
+      "source": {
+        "label": "US Census Bureau: San Antonio city, Texas QuickFacts",
+        "url": "https://www.census.gov/quickfacts/fact/table/sanantoniocitytexas/HSG860223",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "local-context-20260917-7",
+      "dcId": 7,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "Chandler buying context added",
+      "description": "Added sourced water, electricity, development, housing and tax context, with geographic scope and reporting periods. City context is not a measured campus effect.",
+      "source": {
+        "label": "US Census Bureau: Chandler city, Arizona QuickFacts",
+        "url": "https://www.census.gov/quickfacts/chandlercityarizona",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "local-context-20260917-8",
+      "dcId": 8,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "Mesa buying context added",
+      "description": "Added sourced water, electricity, development, housing and tax context, with geographic scope and reporting periods. City context is not a measured campus effect.",
+      "source": {
+        "label": "US Census Bureau: Mesa city, Arizona QuickFacts",
+        "url": "https://www.census.gov/quickfacts/mesacityarizona",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "local-context-20260917-15",
+      "dcId": 15,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "Council Bluffs buying context added",
+      "description": "Added sourced water, electricity, development, housing and tax context, with geographic scope and reporting periods. City context is not a measured campus effect.",
+      "source": {
+        "label": "US Census Bureau: Council Bluffs city, Iowa QuickFacts",
+        "url": "https://www.census.gov/quickfacts/fact/table/councilbluffscityiowa/BZA115222",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "local-context-20260917-17",
+      "dcId": 17,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "Quincy buying context added",
+      "description": "Added sourced water, electricity, development, housing and tax context, with geographic scope and reporting periods. City context is not a measured campus effect.",
+      "source": {
+        "label": "US Census Bureau: Quincy city, Washington QuickFacts",
+        "url": "https://www.census.gov/quickfacts/fact/table/quincycitywashington/PST045225",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "expansion-20260917-8",
+      "dcId": 8,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "Apple Mesa map location verified",
+      "description": "Primary-source location and local buying context reviewed. Scope and reporting periods accompany each claim.",
+      "source": {
+        "label": "City of Mesa: Apple data-center GIS record",
+        "url": "https://maps.mesaaz.gov/server/rest/services/Planning/Data_Centers/MapServer/1/query?objectIds=9&outFields=*&outSR=4326&f=json",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "expansion-20260917-7",
+      "dcId": 7,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "Chandler address and generator schedule added",
+      "description": "Primary-source location and local buying context reviewed. Scope and reporting periods accompany each claim.",
+      "source": {
+        "label": "CyrusOne: Chandler generator testing schedule",
+        "url": "https://www.cyrusone.com/chandler-backup-generator-schedule",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "expansion-20260917-20",
+      "dcId": 20,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "QTS Ashburn 3 added with local buying context",
+      "description": "Primary-source location and local buying context reviewed. Scope and reporting periods accompany each claim.",
+      "source": {
+        "label": "QTS: Ashburn 3 campus",
+        "url": "https://q.com/data-centers/ashburn-3/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "expansion-20260917-21",
+      "dcId": 21,
+      "publishedAt": "2026-09-17",
+      "kind": "update",
+      "title": "The Dalles area added with local buying context",
+      "description": "Primary-source location and local buying context reviewed. Scope and reporting periods accompany each claim.",
+      "source": {
+        "label": "Google: The Dalles data centers",
+        "url": "https://www.datacenters.google/locations/oregon/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-09-17"
+      }
     }
-  ]
+  ],
+  "communityReports": []
 }
