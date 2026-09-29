@@ -4,13 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — Tempo</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'DM Sans', sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: #FAFAF7;
       color: #1E2D2B;
       line-height: 1.6;
@@ -22,14 +19,14 @@
       padding: 60px 0 80px;
     }
     .logo {
-      font-family: 'DM Serif Display', serif;
+      font-family: Georgia, 'Times New Roman', serif;
       font-size: 28px;
       color: #1A6B5C;
       margin-bottom: 8px;
     }
     .logo span { color: #E8735A; }
     h1 {
-      font-family: 'DM Serif Display', serif;
+      font-family: Georgia, 'Times New Roman', serif;
       font-size: 32px;
       color: #1A6B5C;
       margin: 24px 0 8px;
@@ -40,7 +37,7 @@
       margin-bottom: 32px;
     }
     h2 {
-      font-family: 'DM Serif Display', serif;
+      font-family: Georgia, 'Times New Roman', serif;
       font-size: 22px;
       color: #1E2D2B;
       margin: 32px 0 12px;
@@ -66,61 +63,58 @@
   <div class="container">
     <div class="logo">tempo<span>&hearts;</span></div>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: March 14, 2026</p>
-
-    <p>Tempo ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the Tempo mobile application.</p>
-
-    <h2>Information We Collect</h2>
-    <p>Tempo collects the following information that you voluntarily provide:</p>
+    <p class="updated">Last updated: September 29, 2026</p>
+    <p>Tempo is provided by Judge Dean LLC. This policy explains how Tempo handles information you provide. Features vary by app version and service availability. The AI Companion, account, and backup sections below describe the updated Tempo app; older chat features are covered under Earlier versions.</p>
+    <h2>Records on your device</h2>
+    <p>Profile information, episode logs, journals, daily check-ins, experiments, appointment questions, and conversation history save in app storage on your device. Tracking works without an account. Fonts are bundled and do not require a Google Fonts network request.</p>
+    <p>Local records use platform app storage protection. The app has not implemented a separate encrypted database or app lock. Device backups and operating-system settings can affect copies of app data.</p>
+    <h2>Optional AI Companion</h2>
+    <p>Before sending a message, Tempo asks permission to share that message, recent conversation, and limited profile context (name, AFib type, treatment, and suspected triggers) through the Tempo service to Anthropic to generate a reply. Episode logs and journals are not automatically attached. Information you type into a conversation is included in that conversation.</p>
+    <p>Companion is AI, not a clinician or live support team. Conversations are not monitored by an emergency team. For an emergency, contact your local emergency service immediately.</p>
+    <p>The service uses Firebase authentication, Cloudflare hosting, and Anthropic processing. It retains generated reply text and request IDs until the end of the current UTC day to make retries reliable; expired data is removed by scheduled cleanup. Provider infrastructure, operational logs, and processing retention are governed by the providers' policies and our configured service settings. This application does not promise immediate deletion of all provider-held copies.</p>
+    <p>To limit abuse and enforce reply limits, the service uses an authenticated account identifier and a short-lived hash of your network IP address. The IP-based rate-limit counter expires after an hour; account reply counters expire at the end of the UTC day.</p>
+    <h2>How we use information</h2>
+    <p>We use information to provide the features you choose: storing and displaying records, generating Companion replies, handling account access and requested backups, verifying subscription access, and protecting the service against abuse. We do not sell your personal health data or use it for advertising.</p>
+    <h2>Optional accounts and backups</h2>
+    <p>Creating an email/password account is optional. Firebase processes account credentials. The app stores its refresh session using platform secure storage; it does not save your password as a preference.</p>
+    <p>Cloud backups upload only when you tap Back up now. A backup contains your profile, episodes, journals/check-ins, and experiments. It excludes conversation history and appointment questions. A new backup replaces the previous snapshot for your account. Signed-in users can restore, delete their cloud snapshot, or delete their cloud account in Account &amp; backup.</p>
+    <h2>Subscriptions and reports</h2>
+    <p>Apple processes purchases. Tempo and its service verify subscription status and signed transaction data to establish current access. The app does not collect your payment card details.</p>
+    <p>PDF reports are generated on your device and previewed before you choose to share them. Sharing sends the report to the destination you select; that destination's privacy practices apply.</p>
+    <h2>Optional reminders</h2>
+    <p>Daily check-in reminders are off by default. If you enable them, Tempo asks for notification permission and schedules reminders on your device. Reminder content includes no health record details. Your preferred time and quiet hours are stored locally. You can turn reminders off in Gentle reminders or manage permission in your device settings.</p>
+    <h2>Analytics</h2>
+    <p>Product analytics is disabled in this update. No product analytics events are sent by the updated app. Any future optional analytics feature will ask for your consent before activation.</p>
+    <h2>Your controls</h2>
     <ul>
-      <li><strong>Profile information:</strong> Your name, AFib type, diagnosis date, known triggers, and medications. This information is stored locally on your device.</li>
-      <li><strong>Health tracking data:</strong> Episode logs, journal entries, mood check-ins, and experiment data that you enter into the app. This data is stored locally on your device.</li>
-      <li><strong>Chat messages:</strong> When you use the Talk to Tempo chat feature, your messages are processed through Crisp, our third-party chat platform. Crisp may store conversation data on their servers. See <a href="https://crisp.chat/en/privacy/" target="_blank">Crisp's Privacy Policy</a> for details.</li>
+      <li>Review, edit, and delete records in History. Record deletion offers a short Undo window.</li>
+      <li>Withdraw Companion sharing permission in Settings; permission is requested again before another message.</li>
+      <li>Delete local records, chat history, and preferences using Delete local data. Cloud accounts and snapshots are managed separately.</li>
+      <li>Delete a cloud backup or cloud account in Account &amp; backup. Local records are kept unless you separately delete them.</li>
+      <li>Cancel an App Store subscription through your Apple account. Deleting app data or a cloud account does not cancel billing.</li>
     </ul>
-
-    <h2>How We Use Your Information</h2>
+    <h2>Providers</h2>
     <ul>
-      <li>To provide and personalize the Tempo app experience</li>
-      <li>To display your profile context during chat conversations so our support team can provide relevant guidance</li>
-      <li>To improve the app based on usage patterns (anonymized and aggregated only)</li>
+      <li><a href="https://www.anthropic.com/legal/privacy">Anthropic privacy information</a></li>
+      <li><a href="https://firebase.google.com/support/privacy">Firebase privacy information</a></li>
+      <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy information</a></li>
+      <li><a href="https://www.apple.com/legal/privacy/">Apple privacy information</a></li>
     </ul>
-
-    <h2>Data Storage</h2>
-    <p>Your health data (episodes, journal entries, experiments, mood check-ins) is stored locally on your device. We do not transmit this data to external servers unless you explicitly use the chat feature, in which case limited profile context may be shared with the chat session to provide better support.</p>
-
-    <h2>Third-Party Services</h2>
-    <p>Tempo uses the following third-party services:</p>
-    <ul>
-      <li><strong>Crisp:</strong> Live chat platform for the Talk to Tempo feature. <a href="https://crisp.chat/en/privacy/" target="_blank">Crisp Privacy Policy</a></li>
-      <li><strong>Google Fonts:</strong> For typography rendering. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
-    </ul>
-
-    <h2>Data Sharing</h2>
-    <p>We do not sell, trade, or rent your personal information to third parties. We do not share your health data with advertisers, data brokers, or any other commercial entities.</p>
-
-    <h2>Your Rights</h2>
-    <p>You have the right to:</p>
-    <ul>
-      <li>Access all data stored in the app (visible directly within the app)</li>
-      <li>Delete your data at any time by clearing app data or uninstalling the app</li>
-      <li>Request deletion of any chat conversation data by contacting us</li>
-    </ul>
-
-    <h2>Children's Privacy</h2>
-    <p>Tempo is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children.</p>
-
-    <h2>Medical Disclaimer</h2>
-    <p>Tempo is not a medical device and does not provide medical advice. Always consult your cardiologist or healthcare provider for medical decisions. This app is designed to help you track lifestyle patterns and is not a substitute for professional medical care.</p>
-
-    <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last updated" date at the top of this page.</p>
-
-    <h2>Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at:</p>
-    <p><a href="mailto:judgedeanllc@gmail.com">judgedeanllc@gmail.com</a></p>
+    <h2>Earlier versions</h2>
+    <p>Earlier versions with Crisp chat process messages and limited profile context through Crisp, which may retain conversation data on its servers. See <a href="https://crisp.chat/en/privacy/">Crisp's privacy policy</a>. Earlier versions may also load fonts through Google Fonts; see <a href="https://policies.google.com/privacy">Google's privacy policy</a>. The updated app uses AI Companion instead of Crisp and bundles its fonts.</p>
+    <p>For requests concerning an earlier chat conversation, contact the support email below. Removing local app data does not itself delete copies held by a chat provider.</p>
+    <h2>Children's privacy</h2>
+    <p>Tempo is intended for adults aged 18 and over. We do not knowingly collect personal information from children. If you believe a child has provided information through a Tempo service, contact us.</p>
+    <h2>Policy changes</h2>
+    <p>We may update this policy as Tempo changes. The date at the top identifies the latest revision.</p>
+    <h2>Medical information</h2>
+    <p>Tempo is not a medical device and does not provide medical advice. Records are self-reported. Missing logs are unknown, and observed patterns do not establish causes. Discuss medical decisions with your healthcare provider.</p>
+    <h2>Contact</h2>
+    <p>For privacy questions or requests about service-held information, contact <a href="mailto:judgedeanllc@gmail.com">judgedeanllc@gmail.com</a>.</p>
 
     <div class="footer">
-      &copy; 2026 Judge Dean LLC. All rights reserved.
+      &copy; 2026 Judge Dean LLC. All rights reserved.<br>
+      <a href="support.html">Tempo Support</a>
     </div>
   </div>
 </body>
