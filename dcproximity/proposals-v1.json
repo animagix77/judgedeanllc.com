@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "publishedAt": "2026-10-20",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "Codex · automated source review for Judge Dean LLC",
+    "reviewedAt": "2026-10-20",
+    "method": "Read municipal notices and approved minutes; hearing times cross-checked against the township October newsletter. Source scope and map precision recorded individually. Selected coverage, not a complete inventory."
+  },
+  "jurisdictions": [
+    {
+      "id": "smithfield-pa",
+      "name": "Smithfield Township, Monroe County",
+      "state": "PA",
+      "coverage": "selected",
+      "checkedAt": "2026-10-20",
+      "source": {
+        "label": "Smithfield Township · Gateway data center",
+        "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+        "lastCheckedAt": "2026-10-20",
+        "publishedAt": "2026-10-07"
+      }
+    },
+    {
+      "id": "new-albany-oh",
+      "name": "New Albany",
+      "state": "OH",
+      "coverage": "selected",
+      "checkedAt": "2026-10-20",
+      "source": {
+        "label": "New Albany · approved Planning Commission minutes",
+        "url": "https://newalbanyohio.org/wp-content/uploads/2026/04/Approved-Minutes-and-Appendix-26-0406-PC-Meeting.pdf",
+        "lastCheckedAt": "2026-10-20",
+        "publishedAt": "2026-04"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "smithfield-gateway",
+      "name": "Smithfield Gateway",
+      "jurisdictionId": "smithfield-pa",
+      "applicant": "DEPG Mosier Associates LP & DEPG of Shawnee II LP",
+      "stage": "under_review",
+      "stageAsOf": "2026-10-07",
+      "stageNote": "Conditional-use application under review. Land development and engineering review would be separate later steps.",
+      "summary": "The township describes one proposed two-story, 250,000-square-foot data center behind St. Luke’s and Wawa. This is the current application; earlier sketch concepts differ.",
+      "source": {
+        "label": "Smithfield Township · Gateway data center",
+        "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+        "lastCheckedAt": "2026-10-20",
+        "publishedAt": "2026-10-07"
+      },
+      "location": {
+        "lat": 41.022567,
+        "lng": -75.133004,
+        "precision": "jurisdiction",
+        "label": "Smithfield Township reference point · not the project site",
+        "source": {
+          "label": "U.S. Census Bureau · 2025 county subdivision gazetteer",
+          "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_cousubs_national.zip",
+          "lastCheckedAt": "2026-10-20",
+          "publishedAt": "2025"
+        }
+      },
+      "timeline": [
+        {
+          "id": "application-submitted",
+          "date": "2026-04-03",
+          "title": "Application submitted",
+          "detail": "Township lists conditional-use application documents submitted April 3. Submission is not approval.",
+          "source": {
+            "label": "Smithfield Township · Gateway data center",
+            "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-10-07"
+          }
+        },
+        {
+          "id": "application-resubmitted",
+          "date": "2026-08-11",
+          "title": "Application resubmitted",
+          "detail": "Township lists revised conditional-use materials submitted August 11.",
+          "source": {
+            "label": "Smithfield Township · Gateway data center",
+            "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-10-07"
+          }
+        },
+        {
+          "id": "october-notice",
+          "date": "2026-10-07",
+          "title": "October meetings announced",
+          "detail": "Updated township notice lists the planning meeting and conditional-use hearing below.",
+          "source": {
+            "label": "Smithfield Township · Gateway data center",
+            "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-10-07"
+          }
+        }
+      ],
+      "hearings": [
+        {
+          "id": "planning-oct21",
+          "title": "Planning Commission meeting",
+          "kind": "meeting",
+          "status": "scheduled",
+          "startsAt": "2026-10-21T23:00:00Z",
+          "timeZone": "America/New_York",
+          "location": "J.T. Lambert Intermediate School, 2000 Milford Road, East Stroudsburg, PA 18301",
+          "note": "Applicant presentation and Planning Commission review. This meeting is separate from the Board of Supervisors conditional-use hearing.",
+          "source": {
+            "label": "Smithfield Township · Gateway data center",
+            "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-10-07"
+          }
+        },
+        {
+          "id": "conditional-use-oct28",
+          "title": "Conditional-use hearing",
+          "kind": "hearing",
+          "status": "scheduled",
+          "startsAt": "2026-10-28T22:00:00Z",
+          "timeZone": "America/New_York",
+          "location": "J.T. Lambert Intermediate School, 2000 Milford Road, East Stroudsburg, PA 18301",
+          "note": "Board of Supervisors conditional-use hearing. The township says dates may change if an extension is granted.",
+          "source": {
+            "label": "Smithfield Township · Gateway data center",
+            "url": "https://smithfieldtownship.com/odp/gatewaydc/",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-10-07"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stack-souder-road",
+      "name": "STACK · Souder Road",
+      "jurisdictionId": "new-albany-oh",
+      "applicant": "STACK · application represented by EMH&T",
+      "stage": "approved",
+      "stageAsOf": "2026-04-06",
+      "stageNote": "Plan approval is documented. Construction and operating status are not established by these minutes.",
+      "summary": "New Albany approved a modification relocating a driveway and stormwater basin for the STACK development north of New Albany Road East and east of Souder Road.",
+      "source": {
+        "label": "New Albany · approved Planning Commission minutes",
+        "url": "https://newalbanyohio.org/wp-content/uploads/2026/04/Approved-Minutes-and-Appendix-26-0406-PC-Meeting.pdf",
+        "lastCheckedAt": "2026-10-20",
+        "publishedAt": "2026-04"
+      },
+      "location": {
+        "lat": 40.1068118572819,
+        "lng": -82.80457181911191,
+        "precision": "site",
+        "label": "7340 Souder Road · municipal address point, not a parcel boundary",
+        "source": {
+          "label": "New Albany GIS · parcel-linked address point",
+          "url": "https://webgis.newalbanyohio.org/arcgis/rest/services/BaseMapData/GeneralLayers/MapServer/0/query?where=PID%20LIKE%20%27222005106%25%27&outFields=ADDR_NUM,STR_NAME,STR_TYPE,PID&outSR=4326&f=pjson",
+          "lastCheckedAt": "2026-10-20"
+        }
+      },
+      "timeline": [
+        {
+          "id": "original-plan-approved",
+          "date": "2025-12-15",
+          "title": "Original plan approved with conditions",
+          "detail": "April staff report records the December 15 approval of FDP-96-2025. This is the recorded approval date, not a construction start.",
+          "source": {
+            "label": "New Albany · approved Planning Commission minutes",
+            "url": "https://newalbanyohio.org/wp-content/uploads/2026/04/Approved-Minutes-and-Appendix-26-0406-PC-Meeting.pdf",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-04"
+          }
+        },
+        {
+          "id": "modification-approved",
+          "date": "2026-04-06",
+          "title": "Plan modification approved · 4–0",
+          "detail": "Planning Commission approved FDM-16-2026, modifying the drive and stormwater basin location, subject to staff conditions.",
+          "source": {
+            "label": "New Albany · approved Planning Commission minutes",
+            "url": "https://newalbanyohio.org/wp-content/uploads/2026/04/Approved-Minutes-and-Appendix-26-0406-PC-Meeting.pdf",
+            "lastCheckedAt": "2026-10-20",
+            "publishedAt": "2026-04"
+          }
+        }
+      ],
+      "hearings": []
+    }
+  ]
+}
