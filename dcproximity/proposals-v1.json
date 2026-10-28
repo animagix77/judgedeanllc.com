@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
-  "publishedAt": "2026-10-20",
+  "revision": 2,
+  "publishedAt": "2026-10-28",
   "review": {
     "status": "approved",
     "reviewedBy": "Codex · automated source review for Judge Dean LLC",
-    "reviewedAt": "2026-10-20",
-    "method": "Read municipal notices and approved minutes; hearing times cross-checked against the township October newsletter. Source scope and map precision recorded individually. Selected coverage, not a complete inventory."
+    "reviewedAt": "2026-10-28",
+    "method": "Read the current township notice and the October 21 accepted scheduling correspondence on October 28. Preserved published timeline events and appended the hearing-scope clarification. Unchanged records retain their earlier source-check dates. Selected coverage, not a complete inventory."
   },
   "jurisdictions": [
     {
@@ -14,12 +14,12 @@
       "name": "Smithfield Township, Monroe County",
       "state": "PA",
       "coverage": "selected",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-28",
       "source": {
-        "label": "Smithfield Township · Gateway data center",
+        "label": "Smithfield Township · updated notice and scheduling correspondence",
         "url": "https://smithfieldtownship.com/odp/gatewaydc/",
-        "lastCheckedAt": "2026-10-20",
-        "publishedAt": "2026-10-07"
+        "lastCheckedAt": "2026-10-28",
+        "publishedAt": "2026-10-21"
       }
     },
     {
@@ -47,10 +47,10 @@
       "stageNote": "Conditional-use application under review. Land development and engineering review would be separate later steps.",
       "summary": "The township describes one proposed two-story, 250,000-square-foot data center behind St. Luke’s and Wawa. This is the current application; earlier sketch concepts differ.",
       "source": {
-        "label": "Smithfield Township · Gateway data center",
+        "label": "Smithfield Township · updated notice and scheduling correspondence",
         "url": "https://smithfieldtownship.com/odp/gatewaydc/",
-        "lastCheckedAt": "2026-10-20",
-        "publishedAt": "2026-10-07"
+        "lastCheckedAt": "2026-10-28",
+        "publishedAt": "2026-10-21"
       },
       "location": {
         "lat": 41.022567,
@@ -100,6 +100,18 @@
             "lastCheckedAt": "2026-10-20",
             "publishedAt": "2026-10-07"
           }
+        },
+        {
+          "id": "oct28-hearing-scope-clarified",
+          "date": "2026-10-21",
+          "title": "October 28 hearing limited to party-status matters",
+          "detail": "The township solicitor accepted the applicant’s proposal to open the October 28 hearing for party-status matters, with a further hearing to be scheduled later. This updates the October 7 meeting announcement; it does not record project approval or establish a date for the later hearing.",
+          "source": {
+            "label": "Smithfield Township · October 21 response accepting hearing schedule",
+            "url": "https://smithfieldtownship.com/wp-content/uploads/2026/10/2026.10.21-Response-to-Applicant.pdf",
+            "lastCheckedAt": "2026-10-28",
+            "publishedAt": "2026-10-21"
+          }
         }
       ],
       "hearings": [
@@ -121,18 +133,18 @@
         },
         {
           "id": "conditional-use-oct28",
-          "title": "Conditional-use hearing",
+          "title": "Conditional-use hearing · party status",
           "kind": "hearing",
           "status": "scheduled",
           "startsAt": "2026-10-28T22:00:00Z",
           "timeZone": "America/New_York",
           "location": "J.T. Lambert Intermediate School, 2000 Milford Road, East Stroudsburg, PA 18301",
-          "note": "Board of Supervisors conditional-use hearing. The township says dates may change if an extension is granted.",
+          "note": "The Board of Supervisors will only consider requests for party status at this hearing. The township accepted this limited scope on October 21; a later hearing date is not confirmed here. The township requested emailed party-status forms by October 27 for advance receipt; forms may also be brought to the hearing and blank forms will be available. Check the official notice for any further scheduling changes.",
           "source": {
-            "label": "Smithfield Township · Gateway data center",
+            "label": "Smithfield Township · updated notice and scheduling correspondence",
             "url": "https://smithfieldtownship.com/odp/gatewaydc/",
-            "lastCheckedAt": "2026-10-20",
-            "publishedAt": "2026-10-07"
+            "lastCheckedAt": "2026-10-28",
+            "publishedAt": "2026-10-21"
           }
         }
       ]
