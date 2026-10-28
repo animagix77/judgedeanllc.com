@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
-  "publishedAt": "2026-09-17T13:00:00Z",
+  "revision": 6,
+  "publishedAt": "2026-10-28T15:46:44.225414Z",
   "review": {
     "status": "approved",
-    "reviewedBy": "Judge Dean LLC automated source review",
-    "reviewedAt": "2026-09-17",
-    "method": "Primary-source expansion to Ashburn and The Dalles; City of Mesa GIS location and Chandler operator schedule reviewed. Existing evidence dates preserved. No resident reports fabricated or published."
+    "reviewedBy": "Codex · automated source review for Judge Dean LLC",
+    "reviewedAt": "2026-10-28",
+    "method": "Targeted publication review of San Antonio city tax, CPS October cost projection, SAWS current and approved future rates, and Mesa development-water policy. Read primary-source bodies. Published change history, unrelated facts, location precision and evidence dates preserved; not a full catalog re-verification."
   },
   "dataCenters": [
     {
@@ -231,23 +231,23 @@
         {
           "label": "WATER · Household bill structure",
           "value": "Water and sewer charges, water-supply fees and other applicable fees",
-          "scope": "SAWS 2026 schedules use water-consumption tiers; the account’s service and usage determine the bill. Proposed future adjustments are not treated as approved.",
+          "scope": "SAWS 2026 schedules use water-consumption tiers; the account’s service and usage determine the bill. These current schedules are separate from the 2027 adjustment.",
           "source": {
             "label": "SAWS: Water & Sewer Rates",
             "url": "https://www.saws.org/service/water-sewer-rates/",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-17"
+            "lastCheckedAt": "2026-10-28"
           }
         },
         {
           "label": "POWER & BILLS · Residential cost reference",
-          "value": "13.6¢/kWh projected average for September 2026",
+          "value": "13.0¢/kWh projected average for October 2026",
           "scope": "CPS Energy residential-customer projection; not a fixed tariff, a Microsoft price or a campus-caused increase.",
           "source": {
             "label": "CPS Energy: Understanding Your Bill",
             "url": "https://www.cpsenergy.com/en/about-us/who-we-are/financial-information/fuel-charges.html",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-17"
+            "lastCheckedAt": "2026-10-28"
           }
         },
         {
@@ -284,7 +284,7 @@
           }
         },
         {
-          "label": "TAXES · City property-tax reference",
+          "label": "TAXES · FY 2026 city property-tax reference",
           "value": "$0.541590 per $100 of taxable value",
           "scope": "San Antonio FY 2026 adopted city rate; excludes other taxing entities and does not apply throughout the wider Microsoft area.",
           "source": {
@@ -336,6 +336,39 @@
             "url": "https://www.census.gov/quickfacts/fact/table/sanantoniocitytexas/HSG860223",
             "publishedAt": null,
             "lastCheckedAt": "2026-09-17"
+          }
+        },
+        {
+          "label": "TAXES · FY 2027 adopted city rate",
+          "value": "$0.56288 per $100 of taxable value",
+          "scope": "San Antonio city rate adopted September 17, 2026 for FY 2027; up from $0.54159 for FY 2026. Excludes other taxing entities; exemptions and taxable value affect each bill. Not a Microsoft-caused increase or a rate for all Bexar and Medina County homes.",
+          "source": {
+            "label": "San Antonio: FY 2027 budget adoption",
+            "url": "https://www.sa.gov/Directory/News-Releases/City-Adopts-Balanced-Fiscal-Year-2027-Budget",
+            "publishedAt": "2026-09-17",
+            "lastCheckedAt": "2026-10-28"
+          }
+        },
+        {
+          "label": "WATER · Approved 2027 rate adjustment",
+          "value": "City Council approved a rate adjustment beginning January 1, 2027",
+          "scope": "SAWS October 9 confirmation; applies to the utility service area, not every home in the Greater San Antonio overview. Future effective date; not an increase already applied to October 2026 bills.",
+          "source": {
+            "label": "SAWS: Council-approved rate adjustment",
+            "url": "https://www.saws.org/saws-holds-steady-bond-ratings-as-new-rate-is-passed-at-council/",
+            "publishedAt": "2026-10-09",
+            "lastCheckedAt": "2026-10-28"
+          }
+        },
+        {
+          "label": "WATER · 2027 average bill change",
+          "value": "Less than $4 more per month for the average residential bill",
+          "scope": "SAWS description of the approved adjustment beginning January 1, 2027; utility-wide average, not a household quote or a Microsoft-caused increase. Individual charges depend on service and usage.",
+          "source": {
+            "label": "SAWS: Council-approved rate adjustment",
+            "url": "https://www.saws.org/saws-holds-steady-bond-ratings-as-new-rate-is-passed-at-council/",
+            "publishedAt": "2026-10-09",
+            "lastCheckedAt": "2026-10-28"
           }
         }
       ]
@@ -617,13 +650,13 @@
         },
         {
           "label": "DEVELOPMENT · Large water customers",
-          "value": "Mesa describes water budgets and long-term storage credits for large users",
-          "scope": "City water-planning policy; no Apple-specific permit, compliance finding or water allocation is established here.",
+          "value": "Qualifying developments may need additional water supplies to offset demand",
+          "scope": "Mesa’s current municipal planning description; requirements depend on the project. This does not establish an Apple-specific permit, allocation or compliance finding.",
           "source": {
             "label": "City of Mesa: Water Reliability and Preparedness",
             "url": "https://www.mesaaz.gov/Utilities/Water-Wastewater/Mesas-Water-Reliability-and-Preparedness",
             "publishedAt": null,
-            "lastCheckedAt": "2026-09-17"
+            "lastCheckedAt": "2026-10-28"
           }
         },
         {
@@ -2412,6 +2445,90 @@
         "url": "https://www.datacenters.google/locations/oregon/",
         "publishedAt": null,
         "lastCheckedAt": "2026-09-17"
+      }
+    },
+    {
+      "id": "weekly-20260921-5-tax",
+      "dcId": 5,
+      "publishedAt": "2026-10-28",
+      "kind": "update",
+      "title": "San Antonio adopts FY 2027 city property-tax rate",
+      "description": "The City reports a rate of $0.56288 per $100 of taxable value for FY 2027. The FY 2026 rate is retained as historical context; other taxing entities and property-specific exemptions are separate.",
+      "source": {
+        "label": "San Antonio: FY 2027 budget adoption",
+        "url": "https://www.sa.gov/Directory/News-Releases/City-Adopts-Balanced-Fiscal-Year-2027-Budget",
+        "publishedAt": "2026-09-17",
+        "lastCheckedAt": "2026-10-28"
+      }
+    },
+    {
+      "id": "weekly-20260921-5-water",
+      "dcId": 5,
+      "publishedAt": "2026-10-28",
+      "kind": "update",
+      "title": "Earlier SAWS proposal scheduled an October vote",
+      "description": "Historical proposal context: SAWS’ September 1 release listed an October 8 Council vote and a possible January 2027 start. This was the proposal stage; the later October 9 approval confirmation is recorded separately.",
+      "source": {
+        "label": "SAWS: Revised rate plan awaiting City Council",
+        "url": "https://www.saws.org/saws-board-approves-revised-rate-infrastructure-improvement-plan/",
+        "publishedAt": "2026-09-01",
+        "lastCheckedAt": "2026-10-28"
+      }
+    },
+    {
+      "id": "weekly-20260921-8-water-policy",
+      "dcId": 8,
+      "publishedAt": "2026-10-28",
+      "kind": "update",
+      "title": "Mesa water-planning description clarified",
+      "description": "Updated the development-policy wording to match the City’s current page. Project-specific requirements are not treated as an Apple permit or allocation.",
+      "source": {
+        "label": "City of Mesa: Water Reliability and Preparedness",
+        "url": "https://www.mesaaz.gov/Utilities/Water-Wastewater/Mesas-Water-Reliability-and-Preparedness",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-10-28"
+      }
+    },
+    {
+      "id": "weekly-20261005-5-power",
+      "dcId": 5,
+      "publishedAt": "2026-10-28",
+      "kind": "update",
+      "title": "CPS Energy posts October residential cost projection",
+      "description": "Updated the San Antonio reference from September’s 13.6 cents/kWh projection to October’s 13.0 cents/kWh. This is an average-cost projection, not a fixed tariff or a data-center-caused change.",
+      "source": {
+        "label": "CPS Energy: Understanding Your Bill",
+        "url": "https://www.cpsenergy.com/en/about-us/who-we-are/financial-information/fuel-charges.html",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-10-28"
+      }
+    },
+    {
+      "id": "weekly-20261005-5-water-projection",
+      "dcId": 5,
+      "publishedAt": "2026-10-28",
+      "kind": "update",
+      "title": "Earlier SAWS proposal estimated a $3.91 bill change",
+      "description": "Historical proposal context: SAWS’ campaign page described a conditional $3.91 average monthly residential increase for 2027. The later Council-approved adjustment is described separately as less than $4 monthly; this earlier projection is not a household quote.",
+      "source": {
+        "label": "SAWS: Proposed 2027 rates",
+        "url": "https://www.saws.org/2027-rates/",
+        "publishedAt": null,
+        "lastCheckedAt": "2026-10-28"
+      }
+    },
+    {
+      "id": "weekly-20261012-5-water-approved",
+      "dcId": 5,
+      "publishedAt": "2026-10-28",
+      "kind": "update",
+      "title": "SAWS confirms approval of 2027 rate adjustment",
+      "description": "SAWS’ October 9 announcement confirms Council approval of an adjustment beginning January 1, 2027, with an average residential bill increase below $4 monthly. Individual bills vary; the earlier proposal entries are historical context.",
+      "source": {
+        "label": "SAWS: Council-approved rate adjustment",
+        "url": "https://www.saws.org/saws-holds-steady-bond-ratings-as-new-rate-is-passed-at-council/",
+        "publishedAt": "2026-10-09",
+        "lastCheckedAt": "2026-10-28"
       }
     }
   ],
